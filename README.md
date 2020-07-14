@@ -1,4 +1,4 @@
-### Hi there 👋 Hector Pulido is Here
+# Hi there 👋 Hector Pulido is Here
 I'm just a simple Mechatronic engineer, backend developer, machine learning lover, gamedev, youtuber and streamer.
 
 ## ⚡ More info:
