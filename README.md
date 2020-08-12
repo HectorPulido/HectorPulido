@@ -5,6 +5,8 @@
 
 <em> There is no challenge big enough not to try, My code will change the world some day. </em>
  
+<img align="right" style="border-radius:50%" height="auto" width="200" src="https://pbs.twimg.com/profile_images/1284492635927871488/0ez0A7DH_400x400.jpg"/> 
+
 ## Ask me about :computer: 
 - **Tech Stack**
 	- Python and Flask, Django ⭐
@@ -17,8 +19,6 @@
 	- Arduino and electronics
 	- ASM for Pics
 	
-<img align="right" style="border-radius:50%" height="auto" width="200" src="https://pbs.twimg.com/profile_images/1284492635927871488/0ez0A7DH_400x400.jpg"/>
-
 - **Awesome Projects**
 	- [Evolutionary Neural Networks ](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 🤖 🎮
 	- [Autogradient System for Deep Learning ](https://github.com/HectorPulido/Machine-learning-Framework-Csharp) 🤖
