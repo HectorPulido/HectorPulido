@@ -5,7 +5,9 @@
 
 <em> There is no challenge big enough not to try, My code will change the world some day. </em>
  
-<img align="right" style="border-radius:50%" height="auto" width="200" src="https://pequesoft.net/web/static/images/pequesoft.png"/> 
+<a href="https://twitter.com/Hector_Pulido_" align="right">
+<img height="auto" width="200" src="https://pequesoft.net/web/static/images/pequesoft.png"/> 
+</a>
 
 ## Ask me about :computer: 
 - **Tech Stack**
@@ -28,6 +30,7 @@
 	- [Expense tracker](https://github.com/HectorPulido/Expenses-tracker) 💻
 	- [Imitation Learning (C#, Unity)](https://github.com/HectorPulido/Imitation-learning-in-unity) 🤖 🎮
 	- [Deeplearning based Twitch bot](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 🤖💻
+<br>
 <br>
 <p align="center">
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=HectorPulido&&show_icons=true&theme=radical" alt="Hector's Github Stats">
