@@ -5,9 +5,9 @@
 
 <em> There is no challenge big enough not to try, My code will change the world some day. </em>
  
-<div align="right"><a href="https://twitter.com/Hector_Pulido_">
-<img height="auto" width="200" src="https://pequesoft.net/web/static/images/pequesoft.png"/> 
-</a></div>
+<a href="https://twitter.com/Hector_Pulido_">
+<img align="right" height="auto" width="200" src="https://pequesoft.net/web/static/images/pequesoft.png"/> 
+</a>
 
 ## Ask me about :computer: 
 - **Tech Stack**
