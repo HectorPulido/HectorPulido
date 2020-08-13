@@ -1,11 +1,11 @@
 
 
 ## Hello, Hector Pulido is Here! 👋
-<em> I'm just a simple **Mechatronic engineer**, **backend developer**, **#MachineLearning** and **#gamedev** lover, I have delusion of **youtuber** and now **streamer**.</em>
+<em> I'm just a simple **Mechatronic engineer**, **backend developer**, **#MachineLearning** and **#Gamedev** lover, I have delusion of **youtuber** and now **streamer**.</em>
 
 <em> There is no challenge big enough not to try, My code will change the world some day. </em>
  
-<img align="right" style="border-radius:50%" height="auto" width="200" src="https://pbs.twimg.com/profile_images/1284492635927871488/0ez0A7DH_400x400.jpg"/> 
+<img align="right" style="border-radius:50%" height="auto" width="200" src="https://pequesoft.net/web/static/images/pequesoft.png"/> 
 
 ## Ask me about :computer: 
 - **Tech Stack**
