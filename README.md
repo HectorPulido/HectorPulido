@@ -3,13 +3,13 @@
 ## Hello, Hector Pulido is Here! 👋
 <em> I'm just a simple **Mechatronic engineer**, **backend developer**, **#MachineLearning** and **#Gamedev** lover, I have delusion of **youtuber** and now **streamer**.</em>
 
-<em> There is no challenge big enough not to try, My code will change the world some day. </em>
+<em> There is no challenge big enough not to try, My code will change the **world** some day. </em>
  
 <a href="https://twitter.com/Hector_Pulido_">
 <img align="right" height="auto" width="200" src="https://pequesoft.net/web/static/images/pequesoft.png"/> 
 </a>
 
-## Ask me about :computer: 
+## Tech stuff ⌨
 - **Tech Stack**
 	- Python and Flask, Django ⭐
 	- Pytorch ⭐
@@ -37,7 +37,7 @@
 </p>  
 
 <div align="center">
-  <h3 align="center">Connect with me 😋</h3> 
+  <h3 align="center">Let's connect 😋</h3> 
 </div>
 <p align="center">
  <a href="https://www.linkedin.com/in/hector-pulido-17547369/" target="blank">
