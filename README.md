@@ -9,27 +9,26 @@
 <img align="right" height="auto" width="200" src="https://pequesoft.net/web/static/images/pequesoft.png"/> 
 </a>
 
-## Tech stuff ⌨
-- **Tech Stack**
-	- Python and Flask, Django ⭐
-	- Pytorch ⭐
-	- C# and .Net Technologies
-	- Javascript and NodeJs
-	- SQL and Relational Databases
-	- Linux, AWS and Docker
-	- Unity3D ⭐
-	- Arduino and electronics
-	- ASM for Pics
+## Tech Stack ⌨
+- Python and Flask, Django ⭐
+- Pytorch ⭐
+- C# and .Net Technologies
+- Javascript and NodeJs
+- SQL and Relational Databases
+- Linux, AWS and Docker
+- Unity3D ⭐
+- Arduino and electronics
+- ASM for Pics
 	
-- **Awesome Projects**
-	- [Evolutionary Neural Networks ](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 🤖 🎮
-	- [Autogradient System for Deep Learning ](https://github.com/HectorPulido/Machine-learning-Framework-Csharp) 🤖
-	- [Chatbot seq2seq](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 🤖
-	- [Blockchain based Login](https://github.com/HectorPulido/Amazon-QLDB-Login-Example) 🔑 💻
-	- [Decentralized Twitter like app](https://github.com/HectorPulido/Decentralized-Twitter-with-blockchain-as-base) 🔑 
-	- [Expense tracker](https://github.com/HectorPulido/Expenses-tracker) 💻
-	- [Imitation Learning (C#, Unity)](https://github.com/HectorPulido/Imitation-learning-in-unity) 🤖 🎮
-	- [Deeplearning based Twitch bot](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 🤖💻
+## Awesome Projects 📚
+- [Evolutionary Neural Networks ](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 🤖 🎮
+- [Autogradient System for Deep Learning ](https://github.com/HectorPulido/Machine-learning-Framework-Csharp) 🤖
+- [Chatbot seq2seq](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 🤖
+- [Blockchain based Login](https://github.com/HectorPulido/Amazon-QLDB-Login-Example) 🔑 💻
+- [Decentralized Twitter like app](https://github.com/HectorPulido/Decentralized-Twitter-with-blockchain-as-base) 🔑 
+- [Expense tracker](https://github.com/HectorPulido/Expenses-tracker) 💻
+- [Imitation Learning (C#, Unity)](https://github.com/HectorPulido/Imitation-learning-in-unity) 🤖 🎮
+- [Deeplearning based Twitch bot](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 🤖💻
 <br>
 <br>
 <p align="center">
