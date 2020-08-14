@@ -15,7 +15,7 @@
     <img align="right" height="auto" width="200" src="https://pequesoft.net/web/static/images/pequesoft.png" />
 </a>
 
-## Projects ⌨
+## Blockchain projects ⌨
 - [Blockchain based Login](https://github.com/HectorPulido/Amazon-QLDB-Login-Example) 🔑💻⭐
 - [Decentralized Twitter with blockchain](https://github.com/HectorPulido/Decentralized-Twitter-with-blockchain-as-base) 🔑💻
 

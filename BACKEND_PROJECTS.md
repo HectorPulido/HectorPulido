@@ -15,7 +15,7 @@
     <img align="right" height="auto" width="200" src="https://pequesoft.net/web/static/images/pequesoft.png" />
 </a>
 
-## Projects ⌨
+## Backend projects ⌨
 - [Expense tracker](https://github.com/HectorPulido/Expenses-tracker) 💻⭐
 - [Deeplearning based Twitch bot](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 🤖💻⭐
 - [Simple python blog](https://github.com/HectorPulido/Simple-python-blog) 💻

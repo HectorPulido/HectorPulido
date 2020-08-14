@@ -15,7 +15,7 @@
  <img align="right" height="auto" width="200" src="https://pequesoft.net/web/static/images/pequesoft.png" />
 </a>
 
-## Projects ⌨
+## Videogame projects ⌨
 - [Evolutionary Neural Networks ](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 🤖🎮⭐
 - [Imitation Learning (C#, Unity)](https://github.com/HectorPulido/Imitation-learning-in-unity) 🤖🎮⭐
 - [Unity Deep learning framewrok](https://github.com/HectorPulido/Deep-Learning-Framework-DLF-in-unity) 🤖🎮

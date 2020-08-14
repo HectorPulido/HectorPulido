@@ -15,7 +15,7 @@
     <img align="right" height="auto" width="200" src="https://pequesoft.net/web/static/images/pequesoft.png" />
 </a>
 
-## Projects ⌨
+## AI projects ⌨
 - [Evolutionary Neural Networks ](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 🤖🎮⭐
 - [Autogradient System for Deep Learning ](https://github.com/HectorPulido/Machine-learning-Framework-Csharp) 🤖⭐
 - [Chatbot seq2seq](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 🤖⭐
