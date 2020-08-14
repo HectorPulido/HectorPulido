@@ -3,7 +3,7 @@
     have delusion of **youtuber** and now **streamer**, There is no challenge big enough not to try, My code will change the **world** some day.</em>
 
 <p align="center">
-  Click here 👉
+ 👉
  <a href="https://github.com/HectorPulido">⭐</a>
  <a href="https://github.com/HectorPulido/HectorPulido/blob/master/AI_PROJECTS.md">🤖</a>
  <a href="https://github.com/HectorPulido/HectorPulido/blob/master/VIDEOGAME_PROJECTS.md">🎮</a>
