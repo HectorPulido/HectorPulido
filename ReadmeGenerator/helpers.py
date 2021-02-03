@@ -24,34 +24,28 @@ def description(data, context):
 def categories(data, context):
     categories = []
     for category in context["categories"]:
-        link = f"https://github.com/{context['github_user']}/{context['github_user']}/blob/master/{category['tag']}.md"
+        link = "https://github.com/{}/{}/blob/master/{}.md".format(
+            context["github_user"], context["github_user"], category["tag"]
+        )
         template = f"<a href=\"{link}\">{category['emoji']}</a>"
         categories.append(template)
 
     categories_text = "\n".join(categories)
 
-    return f"""
-<p align="center">
-    {categories_text}
-</p>
-"""
+    return f'<p align="center">\n{categories_text}\n</p>\n'
 
 
 def right_image(data, context):
-    return f"""
-<a href="{data["link"]}">
-    <img align="right" height="auto" width="200" src="{data["image"]}" />
-</a>
-    """
+    properties = 'align="right" height="auto" width="200"'
+    return '<a href="{}">\n<img {} src="{}"/>\n</a>\n'.format(
+        data["link"], properties, data["image"]
+    )
 
 
 def tech_stack(data, context):
     title = process_title(data["title"], context)
     tech = "- " + "\n- ".join(data["tech"])
-    return f"""
-{title}
-{tech}
-    """
+    return f"{title}\n{tech}\n"
 
 
 def awesome_projects(data, context):
@@ -78,12 +72,9 @@ def awesome_projects(data, context):
             stars = project["stargazers"]
             score = f"🌿{forks} ⭐{stars}"
 
-        projects_data += f"""- [{project["name"]} {score} {emojis}]({url}) \n"""
+        projects_data += f'- [{project["name"]} {score} {emojis}]({url}) \n'
 
-    return f"""
-{title}
-{projects_data}
-"""
+    return f"{title}\n{projects_data}\n"
 
 
 def extra(data, context):
@@ -93,20 +84,20 @@ def extra(data, context):
 def social(data, context):
     title = process_title(data["title"], context)
 
+    properties = 'align="center" width="30px"'
+
     social = ""
     for social_icon in data["social"]:
-        social += f"""    
-<a href="{social_icon["url"]}" target="blank">
-    <img align="center" alt="{social_icon["alt"]}" width="30px" src="{social_icon["image"]}" /> &nbsp; &nbsp;
-</a>
-        """
+        social += '<a href="{}" {}>\n<img {} alt="{}" src="{}"/></a>{}'.format(
+            social_icon["url"],
+            'target="blank"',
+            properties,
+            social_icon["alt"],
+            social_icon["image"],
+            " &nbsp; &nbsp;\n",
+        )
 
-    return f"""
-{title}
-<p align="center">
-{social}
-</p>
-    """
+    return f'{title}\n<p align="center">\n{social}\n</p>\n'
 
 
 def space(data, context):
