@@ -30,11 +30,13 @@ jobs:
         with:
           python-version: '3.8.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
-
+      
       - name: Install dependencies
-        run: pip install -r ReadmeGenerator/requirements.txt
+        working-directory: ./ReadmeGenerator
+        run: pip install -r requirements.txt
       
       - name: Generate
-        run: python ReadmeGenerator/main.py
+        working-directory: ./ReadmeGenerator
+        run: python main.py
 
 
