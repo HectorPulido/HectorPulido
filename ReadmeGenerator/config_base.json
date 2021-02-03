@@ -3,7 +3,7 @@
         "type": "config",
         "data": {
             "githubUser": "HectorPulido",
-            "categories" : [
+            "categories": [
                 {
                     "name": "AI",
                     "emoji": "🤖",
@@ -67,13 +67,18 @@
         "type": "awesomeProjects",
         "data": {
             "title": "Awesome Projects 📚",
-            "count": 9
+            "count": 9,
+            "showEmojis": true,
+            "showScore": false
         }
+    },
+    {
+        "type": "space",
+        "data": {}
     },
     {
         "type": "extra",
         "data": "<p align=\"center\">\n<a href=\"#user-30538313-pinned-items-reorder-form\">\n<img align=\"center\" src=\"https://github-readme-stats.vercel.app/api?username=HectorPulido&bg_color=30,e96443,904e95&title_color=fff&text_color=fff\" alt=\"Hector's Github Stats\"/>\n</a>\n</p>"
-        
     },
     {
         "type": "social",

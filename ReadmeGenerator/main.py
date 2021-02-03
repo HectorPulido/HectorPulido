@@ -1,25 +1,45 @@
 import json
-from helpers import types
+from helpers import types, set_config
 
-FILENAME = "config.py"
-f = open(FILENAME, "r")
+FILEPATH = "../"
+FILENAME_BASE = "config_base.json"
+FILENAME_PROJECTS = "config_projects.json"
+
+f = open(FILENAME_BASE, "r")
 data = json.loads(f.read())
 
 readme_file = ""
-
 context = {}
-github_user = ""
-categories = []
 
 for block in data:
     if block["type"] == "config":
         github_user = block["data"]["githubUser"]
         categories = block["data"]["categories"]
+        context = set_config(github_user, categories)
         continue
 
     readme_file += types[block["type"]](block["data"], context)
-    readme_file += "<br />\n\n"
+    readme_file += "\n\n"
 
-f = open("README.md", "w")
+f = open(f"{FILEPATH}README.md", "w")
 f.write(readme_file)
 f.close()
+
+f = open(FILENAME_PROJECTS, "r")
+data = json.loads(f.read())
+
+for category in categories:
+    readme_file = ""
+    temp_context = context.copy()
+    temp_context["category"] = category["name"]
+    temp_context["emoji"] = category["emoji"]
+    temp_context["projects"] = [
+        x for x in context["projects"] if category["tag"] in x["tags"]
+    ]
+    for block in data:
+        readme_file += types[block["type"]](block["data"], temp_context)
+        readme_file += "\n\n"
+
+    f = open(f"{FILEPATH}{category['tag']}.md", "w")
+    f.write(readme_file)
+    f.close()

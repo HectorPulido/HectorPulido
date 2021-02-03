@@ -1,4 +1,4 @@
-# Hello, Hector Pulido is Here! 👋
+# Hector Pulido's GameDev projects! 👋
 
 
 `Third Clarke law; Any sufficiently advanced technology is indistinguishable from magic.`<br><em> I'm just a simple **Mechatronic engineer**, **backend developer**, **#MachineLearning** and **#Gamedev** lover, I have delusion of **youtuber** and now **streamer**, There is no challenge big enough not to try, My code will change the **world** some day.</em>
@@ -20,39 +20,41 @@
     
 
 
-## Tech Stack ⌨
-- Python and Flask, Django ⭐
-- Pytorch ⭐
-- C# and .Net Technologies
-- Javascript and NodeJs
-- SQL and Relational Databases
-- Linux, AWS and Docker
-- Unity3D ⭐
-- Arduino and electronics
-- ASM for Pics
-    
-
-
-## Awesome Projects 📚
+## GameDev Projects 🎮
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
 - [Unity battle royale game made with unity  🎮](https://github.com/HectorPulido/Unity-Battle-Royale-game-Made-With-Unity) 
-- [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
 - [Unity mmo framework  🎮 💻](https://github.com/HectorPulido/Unity-MMO-Framework) 
 - [Worms like game made with unity  🎮](https://github.com/HectorPulido/Worms-like-game-made-with-unity) 
 - [Simple rts made with unity  🎮](https://github.com/HectorPulido/Simple-RTS-Made-With-Unity) 
 - [Mario maker like game made with unity  🎮](https://github.com/HectorPulido/Mario-maker-like-game-made-with-unity) 
-- [Chatbot seq2seq c   🤖](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 
 - [Angry birds like game made with unity and c   🎮](https://github.com/HectorPulido/Angry-birds-like-game-made-with-UNITY-and-C-) 
+- [Unity rewind mechanic  🎮](https://github.com/HectorPulido/Unity-Rewind-Mechanic) 
+- [Unitysimpleinventorysystem  🎮](https://github.com/HectorPulido/UnitySimpleInventorySystem) 
+- [Imitation learning in unity  🤖 🎮](https://github.com/HectorPulido/Imitation-learning-in-unity) 
+- [Survival zombie game made with unity  🎮](https://github.com/HectorPulido/Survival-zombie-game-made-with-unity) 
+- [Conways game of life in unity  🎮](https://github.com/HectorPulido/Conways-Game-of-life-in-unity) 
+- [Contra like game made with unity  🎮](https://github.com/HectorPulido/Contra-Like-game-made-with-unity) 
+- [Unitysimplesnake  🎮](https://github.com/HectorPulido/UnitySimpleSnake) 
+- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
+- [Multipourpuse third person shooter unity  🎮](https://github.com/HectorPulido/Multipourpuse-third-person-shooter-unity) 
+- [Pacman online made with unity  🎮](https://github.com/HectorPulido/Pacman-Online-made-with-unity) 
+- [Ridiculus fishing clone made with unity  🎮](https://github.com/HectorPulido/Ridiculus-fishing-clone-made-with-unity) 
+- [Consolegameengine  🎮 💻](https://github.com/HectorPulido/ConsoleGameEngine) 
+- [Unity twitch chat link  🎮 💻](https://github.com/HectorPulido/Unity-twitch-chat-link) 
+- [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
+- [Console render system  🎮 💻](https://github.com/HectorPulido/console-render-system) 
+- [Pong in python  🎮 💻](https://github.com/HectorPulido/pong-in-python) 
+- [Angry birds vr unity  🎮](https://github.com/HectorPulido/angry-birds-vr-unity) 
+- [Flappybird  🎮](https://github.com/HectorPulido/FlappyBird) 
+- [Pong policy gradients  🎮](https://github.com/HectorPulido/Pong-Policy-gradients) 
+- [Parabolic movement opencv  🤖 🎮](https://github.com/HectorPulido/Parabolic-movement-opencv) 
+- [Rotare clone  🎮](https://github.com/HectorPulido/rotare-clone) 
+- [Space invaders like game  🎮](https://github.com/HectorPulido/Space-invaders-like-game) 
+- [Ballon fighter clone made with unity  🎮](https://github.com/HectorPulido/Ballon-Fighter-clone-made-with-unity) 
 
 
 
 <br>
-
-<p align="center">
-<a href="#user-30538313-pinned-items-reorder-form">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=HectorPulido&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="Hector's Github Stats"/>
-</a>
-</p>
 
 
 <div align="center">

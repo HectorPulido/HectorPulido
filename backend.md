@@ -1,4 +1,4 @@
-# Hello, Hector Pulido is Here! 👋
+# Hector Pulido's Backend projects! 👋
 
 
 `Third Clarke law; Any sufficiently advanced technology is indistinguishable from magic.`<br><em> I'm just a simple **Mechatronic engineer**, **backend developer**, **#MachineLearning** and **#Gamedev** lover, I have delusion of **youtuber** and now **streamer**, There is no challenge big enough not to try, My code will change the **world** some day.</em>
@@ -20,39 +20,30 @@
     
 
 
-## Tech Stack ⌨
-- Python and Flask, Django ⭐
-- Pytorch ⭐
-- C# and .Net Technologies
-- Javascript and NodeJs
-- SQL and Relational Databases
-- Linux, AWS and Docker
-- Unity3D ⭐
-- Arduino and electronics
-- ASM for Pics
-    
-
-
-## Awesome Projects 📚
-- [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
-- [Unity battle royale game made with unity  🎮](https://github.com/HectorPulido/Unity-Battle-Royale-game-Made-With-Unity) 
-- [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
+## Backend Projects 💻
 - [Unity mmo framework  🎮 💻](https://github.com/HectorPulido/Unity-MMO-Framework) 
-- [Worms like game made with unity  🎮](https://github.com/HectorPulido/Worms-like-game-made-with-unity) 
-- [Simple rts made with unity  🎮](https://github.com/HectorPulido/Simple-RTS-Made-With-Unity) 
-- [Mario maker like game made with unity  🎮](https://github.com/HectorPulido/Mario-maker-like-game-made-with-unity) 
-- [Chatbot seq2seq c   🤖](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 
-- [Angry birds like game made with unity and c   🎮](https://github.com/HectorPulido/Angry-birds-like-game-made-with-UNITY-and-C-) 
+- [Unity arpg online  💻](https://github.com/HectorPulido/Unity-Arpg-Online) 
+- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
+- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
+- [Cooklang  💻](https://github.com/HectorPulido/Cooklang) 
+- [Consolegameengine  🎮 💻](https://github.com/HectorPulido/ConsoleGameEngine) 
+- [Unity twitch chat link  🎮 💻](https://github.com/HectorPulido/Unity-twitch-chat-link) 
+- [Decentralized twitter with blockchain as base  🔑 💻](https://github.com/HectorPulido/Decentralized-Twitter-with-blockchain-as-base) 
+- [Console render system  🎮 💻](https://github.com/HectorPulido/console-render-system) 
+- [Pong in python  🎮 💻](https://github.com/HectorPulido/pong-in-python) 
+- [Amazon qldb login example  🔑 💻](https://github.com/HectorPulido/Amazon-QLDB-Login-Example) 
+- [Expenses tracker  💻](https://github.com/HectorPulido/Expenses-tracker) 
+- [Simple php blog  💻](https://github.com/HectorPulido/Simple-php-blog) 
+- [My resume  💻](https://github.com/HectorPulido/My-resume) 
+- [Youtubers toolkit  💻](https://github.com/HectorPulido/Youtubers-toolkit) 
+- [Hectorpulido.github.io  💻](https://github.com/HectorPulido/hectorpulido.github.io) 
+- [Resume generator  💻](https://github.com/HectorPulido/Resume-generator) 
+- [Simple python blog  💻](https://github.com/HectorPulido/Simple-python-blog) 
+- [Simple twitchbot  💻](https://github.com/HectorPulido/Simple-TwitchBot) 
 
 
 
 <br>
-
-<p align="center">
-<a href="#user-30538313-pinned-items-reorder-form">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=HectorPulido&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="Hector's Github Stats"/>
-</a>
-</p>
 
 
 <div align="center">

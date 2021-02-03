@@ -1,0 +1,62 @@
+[
+    {
+        "type": "intro",
+        "data": "Hector Pulido's -category- projects! 👋"
+    },
+    {
+        "type": "description",
+        "data": "`Third Clarke law; Any sufficiently advanced technology is indistinguishable from magic.`<br><em> I'm just a simple **Mechatronic engineer**, **backend developer**, **#MachineLearning** and **#Gamedev** lover, I have delusion of **youtuber** and now **streamer**, There is no challenge big enough not to try, My code will change the **world** some day.</em>"
+    },
+    {
+        "type": "categories",
+        "data": {}
+    },
+    {
+        "type": "rightImage",
+        "data": {
+            "image": "https://github.com/HectorPulido/HectorPulido/raw/master/img/pequesoft.png",
+            "link": "https://twitter.com/Hector_Pulido_"
+        }
+    },
+    {
+        "type": "awesomeProjects",
+        "data": {
+            "title": "-category- Projects -emoji-",
+            "count": 9999,
+            "showEmojis": true,
+            "showScore": false
+        }
+    },
+    {
+        "type": "space",
+        "data": {}
+    },
+    {
+        "type": "social",
+        "data": {
+            "title": "@<div align=\"center\">\n<h3 align=\"center\">Let's connect 😋</h3>\n</div>",
+            "social": [
+                {
+                    "alt": "Hector's LinkedIn",
+                    "url": "https://www.linkedin.com/in/hector-pulido-17547369/",
+                    "image": "https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"
+                },
+                {
+                    "alt": "Hector's Twitter",
+                    "url": "https://twitter.com/Hector_Pulido_",
+                    "image": "https://www.vectorlogo.zone/logos/twitter/twitter-official.svg"
+                },
+                {
+                    "alt": "Hector's Twitch",
+                    "url": "https://www.twitch.tv/hector_pulido_",
+                    "image": "https://www.vectorlogo.zone/logos/twitch/twitch-icon.svg"
+                },
+                {
+                    "alt": "Hector's Youtube",
+                    "url": "https://www.youtube.com/channel/UCS_iMeH0P0nsIDPvBaJckOw",
+                    "image": "https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg"
+                }
+            ]
+        }
+    }
+]

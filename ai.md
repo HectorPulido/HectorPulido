@@ -1,4 +1,4 @@
-# Hello, Hector Pulido is Here! 👋
+# Hector Pulido's AI projects! 👋
 
 
 `Third Clarke law; Any sufficiently advanced technology is indistinguishable from magic.`<br><em> I'm just a simple **Mechatronic engineer**, **backend developer**, **#MachineLearning** and **#Gamedev** lover, I have delusion of **youtuber** and now **streamer**, There is no challenge big enough not to try, My code will change the **world** some day.</em>
@@ -20,39 +20,26 @@
     
 
 
-## Tech Stack ⌨
-- Python and Flask, Django ⭐
-- Pytorch ⭐
-- C# and .Net Technologies
-- Javascript and NodeJs
-- SQL and Relational Databases
-- Linux, AWS and Docker
-- Unity3D ⭐
-- Arduino and electronics
-- ASM for Pics
-    
-
-
-## Awesome Projects 📚
+## AI Projects 🤖
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
-- [Unity battle royale game made with unity  🎮](https://github.com/HectorPulido/Unity-Battle-Royale-game-Made-With-Unity) 
 - [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
-- [Unity mmo framework  🎮 💻](https://github.com/HectorPulido/Unity-MMO-Framework) 
-- [Worms like game made with unity  🎮](https://github.com/HectorPulido/Worms-like-game-made-with-unity) 
-- [Simple rts made with unity  🎮](https://github.com/HectorPulido/Simple-RTS-Made-With-Unity) 
-- [Mario maker like game made with unity  🎮](https://github.com/HectorPulido/Mario-maker-like-game-made-with-unity) 
 - [Chatbot seq2seq c   🤖](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 
-- [Angry birds like game made with unity and c   🎮](https://github.com/HectorPulido/Angry-birds-like-game-made-with-UNITY-and-C-) 
+- [Vectorized multilayer neural network  🤖](https://github.com/HectorPulido/Vectorized-multilayer-neural-network) 
+- [Imitation learning in unity  🤖 🎮](https://github.com/HectorPulido/Imitation-learning-in-unity) 
+- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
+- [Machine learning framework csharp  🤖](https://github.com/HectorPulido/Machine-learning-Framework-Csharp) 
+- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
+- [Three genetics algorithm using unity  🤖](https://github.com/HectorPulido/Three-Genetics-Algorithm-Using-Unity) 
+- [Easiest deep rl algorithm with pytorch  🤖](https://github.com/HectorPulido/Easiest-deep-rl-algorithm-with-pytorch) 
+- [Procedural dungeon generation algorithm unity  🤖](https://github.com/HectorPulido/Procedural-Dungeon-Generation-Algorithm-Unity) 
+- [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
+- [Deep learning framework dlf in unity  🤖](https://github.com/HectorPulido/Deep-Learning-Framework-DLF-in-unity) 
+- [Regex generation by genetic algorithms  🤖](https://github.com/HectorPulido/Regex-generation-by-Genetic-algorithms) 
+- [Parabolic movement opencv  🤖 🎮](https://github.com/HectorPulido/Parabolic-movement-opencv) 
 
 
 
 <br>
-
-<p align="center">
-<a href="#user-30538313-pinned-items-reorder-form">
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=HectorPulido&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="Hector's Github Stats"/>
-</a>
-</p>
 
 
 <div align="center">
