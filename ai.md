@@ -26,6 +26,7 @@
 - [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Machine learning framework csharp  🤖](https://github.com/HectorPulido/Machine-learning-Framework-Csharp) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
+- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Three genetics algorithm using unity  🤖](https://github.com/HectorPulido/Three-Genetics-Algorithm-Using-Unity) 
 - [Easiest deep rl algorithm with pytorch  🤖](https://github.com/HectorPulido/Easiest-deep-rl-algorithm-with-pytorch) 
 - [Procedural dungeon generation algorithm unity  🤖](https://github.com/HectorPulido/Procedural-Dungeon-Generation-Algorithm-Unity) 

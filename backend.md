@@ -23,7 +23,7 @@
 - [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Cooklang  💻](https://github.com/HectorPulido/Cooklang) 
-- [Hectorpulido  💻](https://github.com/HectorPulido/HectorPulido) 
+- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Consolegameengine  🎮 💻](https://github.com/HectorPulido/ConsoleGameEngine) 
 - [Unity twitch chat link  🎮 💻](https://github.com/HectorPulido/Unity-twitch-chat-link) 
 - [Decentralized twitter with blockchain as base  🔑 💻](https://github.com/HectorPulido/Decentralized-Twitter-with-blockchain-as-base) 
