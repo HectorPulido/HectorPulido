@@ -18,14 +18,7 @@ And his Twitch Channel<br/>
 
 
 ## HOW TO USE
-1. Install libs with. <br> 
-```
->> pip install -r requirements.txt
-```
+1. Clone this repository
 2. Customize the files config_base.json and config_projects.json, it's important to set up the tags of the repositories you want to show.
-3. Then just excecute main.py with the command. <br>
-```
->> python main.py
-```
-4. The readme and the other categories will be generated.
-5. Just commit the changes and push your data if you don't know how, here is a tutorial https://github.com/HectorPulido/Guia-como-usar-Git
+3. Go to the action tab, look for main.yml and run it
+4. The readme and the other categories will be generated every monday at 00:05, and everytime you push a change
