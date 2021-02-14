@@ -28,4 +28,4 @@ And his Twitch Channel<br/>
 
 
 ## Licence
-This repo is made entirely by [Hector Pulido](https://github.com/HectorPulido) under the [MIT license](https://github.com/HectorPulido/HectorPulido/blob/master/LICENSE) you can use, reproduce and modify as you want for free 🥰 
+This repo was made entirely by [Hector Pulido](https://github.com/HectorPulido) under the [MIT license](https://github.com/HectorPulido/HectorPulido/blob/master/LICENSE) you can use, reproduce and modify as you want for free 🥰 
