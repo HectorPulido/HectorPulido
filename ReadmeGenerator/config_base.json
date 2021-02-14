@@ -75,7 +75,7 @@
     {
         "type": "youtube_video_list",
         "data": {
-            "title": "Last videos 📺",
+            "title": "Latest videos 📺",
             "user_id": "c/HectorAndresPulidoPalmar",
             "count": 3,
             "show_thumbnails": true,
