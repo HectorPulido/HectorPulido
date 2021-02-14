@@ -37,3 +37,58 @@ def get_projects(github_user, query):
         projects_parsed.append(project_data)
 
     return projects_parsed
+
+
+def get_youtube_data(youtube_username):
+    initial_data = "var ytInitialData = "
+    final_data = ";"
+
+    url = f"https://www.youtube.com/{youtube_username}/videos"
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, "html.parser")
+    scripts = soup.body.find_all("script")
+
+    videos_data = []
+
+    for script in scripts:
+        data = script.encode_contents().decode(errors="replace")
+        if initial_data not in data:
+            continue
+        data = data.replace(initial_data, "").replace(final_data, "")
+        tab_renderers = json.loads(data)["contents"]
+        tab_renderers = tab_renderers["twoColumnBrowseResultsRenderer"]["tabs"]
+
+        for tab in tab_renderers:
+            if "tabRenderer" not in tab:
+                continue
+
+            if tab["tabRenderer"]["title"] != "Videos":
+                continue
+
+            videos = tab["tabRenderer"]["content"]["sectionListRenderer"]
+            videos = videos["contents"][0]["itemSectionRenderer"]
+            videos = videos["contents"][0]["gridRenderer"]["items"]
+
+            for video in videos:
+                if "gridVideoRenderer" not in video:
+                    continue
+
+                video = video["gridVideoRenderer"]
+
+                published = ""
+                if "publishedTimeText" in video:
+                    published = video["publishedTimeText"]["simpleText"]
+
+                view_count_text = ""
+                if "simpleText" in video["viewCountText"]:
+                    view_count_text = video["viewCountText"]["simpleText"]
+
+                video_data = {
+                    "thumbnail": video["thumbnail"]["thumbnails"][-1]["url"],
+                    "title": video["title"]["runs"][0]["text"],
+                    "published": published,
+                    "viewCountText": view_count_text,
+                    "url": f"https://www.youtube.com/watch?v={video['videoId']}",
+                }
+                videos_data.append(video_data)
+    return videos_data

@@ -77,6 +77,16 @@
         "data": {}
     },
     {
+        "type": "youtube_video_list",
+        "data": {
+            "title": "Last videos 📺",
+            "user_id": "c/HectorAndresPulidoPalmar",
+            "count": 4,
+            "show_thumbnails": true,
+            "show_titles": false
+        }
+    },
+    {
         "type": "extra",
         "data": "<p align=\"center\">\n<a href=\"#user-30538313-pinned-items-reorder-form\">\n<img align=\"center\" src=\"https://github-readme-stats.vercel.app/api?username=HectorPulido&bg_color=30,e96443,904e95&title_color=fff&text_color=fff\" alt=\"Hector's Github Stats\"/>\n</a>\n</p>"
     },

@@ -1,4 +1,4 @@
-from scraper import get_projects
+from scraper import get_projects, get_youtube_data
 
 
 def process_title(title, context):
@@ -104,6 +104,33 @@ def space(data, context):
     return "<br>"
 
 
+def youtube_video_list(data, context):
+    title = process_title(data["title"], context)
+    videos = get_youtube_data(data["user_id"])
+    count = int(data["count"]) if int(data["count"]) <= len(videos) else len(videos)
+
+    video_data = ""
+
+    if data["show_thumbnails"]:
+        video_data = "<p align=\"center\">"
+
+        if data["show_titles"]:
+            for i in range(count):
+                video = videos[i]
+                video_data += f'<p><a href="{video["url"]}" target="blank"><img align="center" width="100px" src="{video["thumbnail"]}"/>&nbsp; &nbsp;{video["title"]}</a></p>'
+        else:
+            for i in range(count):
+                video = videos[i]
+                video_data += f'<a href="{video["url"]}" target="blank"><img align="center" width="200px" src="{video["thumbnail"]}"/></a>&nbsp;&nbsp;\n'
+
+        video_data += "</p>"
+    else:
+        for i in range(count):
+            video = videos[i]
+            video_data += f'- [{video["title"]}]({video["url"]}) \n'
+
+    return f"{title}\n{video_data}\n"
+
 def filter_projects(projects):
     temp_projects = {}
     for project in projects:
@@ -144,4 +171,5 @@ types = {
     "awesomeProjects": awesome_projects,
     "extra": extra,
     "social": social,
+    "youtube_video_list": youtube_video_list
 }

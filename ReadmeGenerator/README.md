@@ -7,6 +7,7 @@ This is a readme generator for github with category feature <br/>
 3. Lateral image
 4. Extras
 5. Github project scrapping
+6. Youtube last videos scrapping
 
 ## WHY (MOTIVATION)
 I want to help people improve their readme<br/>

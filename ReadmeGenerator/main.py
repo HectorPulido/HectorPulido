@@ -5,7 +5,7 @@ FILEPATH = "../"
 FILENAME_BASE = "config_base.json"
 FILENAME_PROJECTS = "config_projects.json"
 
-f = open(FILENAME_BASE, "r")
+f = open(FILENAME_BASE, "r", errors="ignore", encoding='utf-8')
 data = json.loads(f.read())
 
 readme_file = ""
@@ -21,11 +21,11 @@ for block in data:
     readme_file += types[block["type"]](block["data"], context)
     readme_file += "\n\n"
 
-f = open(f"{FILEPATH}README.md", "w")
+f = open(f"{FILEPATH}README.md", "w", errors='ignore',encoding='utf-8')
 f.write(readme_file)
 f.close()
 
-f = open(FILENAME_PROJECTS, "r")
+f = open(FILENAME_PROJECTS, "r", errors="ignore",encoding='utf-8')
 data = json.loads(f.read())
 
 for category in categories:
@@ -40,6 +40,6 @@ for category in categories:
         readme_file += types[block["type"]](block["data"], temp_context)
         readme_file += "\n\n"
 
-    f = open(f"{FILEPATH}{category['tag']}.md", "w")
+    f = open(f"{FILEPATH}{category['tag']}.md", "w", errors='ignore')
     f.write(readme_file)
     f.close()
