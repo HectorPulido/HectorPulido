@@ -73,10 +73,6 @@
         }
     },
     {
-        "type": "space",
-        "data": {}
-    },
-    {
         "type": "youtube_video_list",
         "data": {
             "title": "Last videos 📺",
@@ -85,6 +81,10 @@
             "show_thumbnails": true,
             "show_titles": false
         }
+    },
+    {
+        "type": "space",
+        "data": {}
     },
     {
         "type": "extra",
