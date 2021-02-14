@@ -32,6 +32,10 @@
         "data": {}
     },
     {
+        "type": "space",
+        "data": {}
+    },
+    {
         "type": "social",
         "data": {
             "title": "@<div align=\"center\">\n<h3 align=\"center\">Let's connect 😋</h3>\n</div>",
