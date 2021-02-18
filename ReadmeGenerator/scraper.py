@@ -3,6 +3,19 @@ from bs4 import BeautifulSoup
 import json
 
 
+def get_pinned(github_user):
+    URL = f"https://github.com/{github_user}"
+    page = requests.get(URL)
+    soup = BeautifulSoup(page.content, "html.parser")
+    pinned_data = soup.find_all("div", {"class": "pinned-item-list-item-content"})
+    pinned_posts = []
+
+    for post in pinned_data:
+        pinned_posts.append(post.find("a")["href"])
+
+    return pinned_posts
+
+
 def get_projects(github_user, query):
     URL = f"https://github.com/{github_user}?tab=repositories&q={query}&type=source"
     page = requests.get(URL)

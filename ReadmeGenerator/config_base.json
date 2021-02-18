@@ -69,7 +69,8 @@
             "title": "Awesome Projects 📚",
             "count": 9,
             "showEmojis": true,
-            "showScore": false
+            "showScore": false,
+            "ignore_pinned": true
         }
     },
     {
