@@ -30,22 +30,22 @@
 
 
 ## Awesome Projects 📚
+- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
-- [Unity battle royale game made with unity  🎮](https://github.com/HectorPulido/Unity-Battle-Royale-game-Made-With-Unity) 
 - [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
-- [Worms like game made with unity  🎮](https://github.com/HectorPulido/Worms-like-game-made-with-unity) 
-- [Simple rts made with unity  🎮](https://github.com/HectorPulido/Simple-RTS-Made-With-Unity) 
-- [Mario maker like game made with unity  🎮](https://github.com/HectorPulido/Mario-maker-like-game-made-with-unity) 
-- [Chatbot seq2seq c   🤖](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 
-- [Angry birds like game made with unity and c   🎮](https://github.com/HectorPulido/Angry-birds-like-game-made-with-UNITY-and-C-) 
+- [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
+- [Regex generation by genetic algorithms  🤖](https://github.com/HectorPulido/Regex-generation-by-Genetic-algorithms) 
+- [Deep learning framework dlf in unity  🤖](https://github.com/HectorPulido/Deep-Learning-Framework-DLF-in-unity) 
 - [Vectorized multilayer neural network  🤖](https://github.com/HectorPulido/Vectorized-multilayer-neural-network) 
+- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
+- [Easiest deep rl algorithm with pytorch  🤖](https://github.com/HectorPulido/Easiest-deep-rl-algorithm-with-pytorch) 
 
 
 
 ## Latest videos 📺
-<p align="center"><a href="https://www.youtube.com/watch?v=0VSX9sk-nnk" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/0VSX9sk-nnk/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA6YTOEf5-G-ctSJbmMmfkOQjsJ6w"/></a>&nbsp;&nbsp;
+<p align="center"><a href="https://www.youtube.com/watch?v=GbXSlLvdhyE" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/GbXSlLvdhyE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA5ibx_UJ9yhYpZCrsmxS39p_Zf2g"/></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=0VSX9sk-nnk" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/0VSX9sk-nnk/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA6YTOEf5-G-ctSJbmMmfkOQjsJ6w"/></a>&nbsp;&nbsp;
 <a href="https://www.youtube.com/watch?v=YneaP_KT9KQ" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/YneaP_KT9KQ/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB0jnq_o6OpPnJLmemCO4L8nLp_ew"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=N9jA9vPzt_U" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/N9jA9vPzt_U/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDgVGKGJ0-RydhJwcXp3laWojnzBw"/></a>&nbsp;&nbsp;
 </p>
 
 
