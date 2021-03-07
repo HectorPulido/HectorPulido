@@ -35,17 +35,21 @@ def get_projects(github_user, query):
         project_data["link"] = title["href"]
         project_data["tags"] = [query]
 
-        impact = project.find("div", class_="f6 text-gray mt-2").find_all("a")
-        for data in impact:
-            project_data[data["href"].split("/")[-1]] = int(data.text.strip())
+        impact = project.find("div", class_="f6 mt-2")
+        if impact:
+            impact = impact.find_all("a")
+            for data in impact:
+                project_data[data["href"].split("/")[-1]] = int(data.text.strip())
 
-        if "stargazers" not in project_data:
-            project_data["stargazers"] = 0
+            if "stargazers" not in project_data:
+                project_data["stargazers"] = 0
 
-        if "members" not in project_data:
-            project_data["members"] = 0
+            if "members" not in project_data:
+                project_data["members"] = 0
 
-        project_data["score"] = project_data["stargazers"] + project_data["members"] * 5
+            project_data["score"] = project_data["stargazers"] + project_data["members"] * 5
+        else:
+            project_data["score"] = 0
 
         projects_parsed.append(project_data)
 
