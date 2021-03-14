@@ -52,3 +52,12 @@ jobs:
           branch: master
           force: true
           directory: ./
+          
+          # Upload static files to master
+      - name: Force push to main
+        uses: ad-m/github-push-action@v0.5.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          force: true
+          directory: ./
