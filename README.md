@@ -30,6 +30,7 @@
 
 
 ## Awesome Projects 📚
+- [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
 - [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
@@ -38,7 +39,6 @@
 - [Deep learning framework dlf in unity  🤖](https://github.com/HectorPulido/Deep-Learning-Framework-DLF-in-unity) 
 - [Vectorized multilayer neural network  🤖](https://github.com/HectorPulido/Vectorized-multilayer-neural-network) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
-- [Easiest deep rl algorithm with pytorch  🤖](https://github.com/HectorPulido/Easiest-deep-rl-algorithm-with-pytorch) 
 
 
 

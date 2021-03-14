@@ -18,8 +18,8 @@
 
 
 ## Backend Projects 💻
-- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
+- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Console render system  🎮 💻](https://github.com/HectorPulido/console-render-system) 
 - [Pong in python  🎮 💻](https://github.com/HectorPulido/pong-in-python) 

@@ -18,11 +18,12 @@
 
 
 ## AI Projects 🤖
+- [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
+- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
 - [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
 - [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
-- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Regex generation by genetic algorithms  🤖](https://github.com/HectorPulido/Regex-generation-by-Genetic-algorithms) 
 - [Machine learning framework csharp  🤖](https://github.com/HectorPulido/Machine-learning-Framework-Csharp) 
 - [Deep learning framework dlf in unity  🤖](https://github.com/HectorPulido/Deep-Learning-Framework-DLF-in-unity) 
