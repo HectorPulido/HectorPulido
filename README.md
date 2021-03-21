@@ -30,8 +30,8 @@
 
 
 ## Awesome Projects 📚
-- [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
+- [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
 - [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
 - [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
