@@ -18,6 +18,7 @@
 
 
 ## AI Projects 🤖
+- [Twitter_bot  🤖 💻](https://github.com/HectorPulido/twitter_bot) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 

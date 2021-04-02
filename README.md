@@ -30,6 +30,7 @@
 
 
 ## Awesome Projects 📚
+- [Twitter_bot  🤖 💻](https://github.com/HectorPulido/twitter_bot) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
@@ -38,14 +39,13 @@
 - [Regex generation by genetic algorithms  🤖](https://github.com/HectorPulido/Regex-generation-by-Genetic-algorithms) 
 - [Deep learning framework dlf in unity  🤖](https://github.com/HectorPulido/Deep-Learning-Framework-DLF-in-unity) 
 - [Vectorized multilayer neural network  🤖](https://github.com/HectorPulido/Vectorized-multilayer-neural-network) 
-- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 
 
 
 ## Latest videos 📺
-<p align="center"><a href="https://www.youtube.com/watch?v=yvb-FmRFcoA" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/yvb-FmRFcoA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLADY3A6T0TqnvZMQEDgWRsCW9Uyew"/></a>&nbsp;&nbsp;
+<p align="center"><a href="https://www.youtube.com/watch?v=hvVg72uCMt4" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/hvVg72uCMt4/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCVDKL6v32wnUCY5-idSc7RBUNHyA"/></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=yvb-FmRFcoA" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/yvb-FmRFcoA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLADY3A6T0TqnvZMQEDgWRsCW9Uyew"/></a>&nbsp;&nbsp;
 <a href="https://www.youtube.com/watch?v=GbXSlLvdhyE" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/GbXSlLvdhyE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA5ibx_UJ9yhYpZCrsmxS39p_Zf2g"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=0VSX9sk-nnk" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/0VSX9sk-nnk/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA6YTOEf5-G-ctSJbmMmfkOQjsJ6w"/></a>&nbsp;&nbsp;
 </p>
 
 
