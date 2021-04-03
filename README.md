@@ -30,8 +30,8 @@
 
 
 ## Awesome Projects 📚
-- [Twitter_bot  🤖 💻](https://github.com/HectorPulido/twitter_bot) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
+- [Twitter_bot  🤖 💻](https://github.com/HectorPulido/twitter_bot) 
 - [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
 - [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
