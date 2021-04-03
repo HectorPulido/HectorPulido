@@ -19,7 +19,7 @@
 
 ## Tech Stack ⌨
 - Python and Flask, Django ⭐
-- Pytorch ⭐
+- Pytorch ⭐ 
 - C# and .Net Technologies
 - Javascript and NodeJs
 - SQL and Relational Databases
