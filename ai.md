@@ -18,24 +18,24 @@
 
 
 ## AI Projects 🤖
-- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
-- [Twitter_bot  🤖 💻](https://github.com/HectorPulido/twitter_bot) 
-- [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
-- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
 - [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
-- [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
-- [Regex generation by genetic algorithms  🤖](https://github.com/HectorPulido/Regex-generation-by-Genetic-algorithms) 
-- [Machine learning framework csharp  🤖](https://github.com/HectorPulido/Machine-learning-Framework-Csharp) 
-- [Deep learning framework dlf in unity  🤖](https://github.com/HectorPulido/Deep-Learning-Framework-DLF-in-unity) 
-- [Vectorized multilayer neural network  🤖](https://github.com/HectorPulido/Vectorized-multilayer-neural-network) 
-- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
-- [Easiest deep rl algorithm with pytorch  🤖](https://github.com/HectorPulido/Easiest-deep-rl-algorithm-with-pytorch) 
-- [Parabolic movement opencv  🤖 🎮](https://github.com/HectorPulido/Parabolic-movement-opencv) 
-- [Imitation learning in unity  🤖 🎮](https://github.com/HectorPulido/Imitation-learning-in-unity) 
 - [Chatbot seq2seq c   🤖](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 
-- [Procedural dungeon generation algorithm unity  🤖](https://github.com/HectorPulido/Procedural-Dungeon-Generation-Algorithm-Unity) 
+- [Vectorized multilayer neural network  🤖](https://github.com/HectorPulido/Vectorized-multilayer-neural-network) 
+- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
+- [Imitation learning in unity  🤖 🎮](https://github.com/HectorPulido/Imitation-learning-in-unity) 
+- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
+- [Machine learning framework csharp  🤖](https://github.com/HectorPulido/Machine-learning-Framework-Csharp) 
+- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Three genetics algorithm using unity  🤖](https://github.com/HectorPulido/Three-Genetics-Algorithm-Using-Unity) 
+- [Easiest deep rl algorithm with pytorch  🤖](https://github.com/HectorPulido/Easiest-deep-rl-algorithm-with-pytorch) 
+- [Procedural dungeon generation algorithm unity  🤖](https://github.com/HectorPulido/Procedural-Dungeon-Generation-Algorithm-Unity) 
+- [Twitter_bot  🤖 💻](https://github.com/HectorPulido/twitter_bot) 
+- [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
+- [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
+- [Deep learning framework dlf in unity  🤖](https://github.com/HectorPulido/Deep-Learning-Framework-DLF-in-unity) 
+- [Regex generation by genetic algorithms  🤖](https://github.com/HectorPulido/Regex-generation-by-Genetic-algorithms) 
+- [Parabolic movement opencv  🤖 🎮](https://github.com/HectorPulido/Parabolic-movement-opencv) 
 
 
 

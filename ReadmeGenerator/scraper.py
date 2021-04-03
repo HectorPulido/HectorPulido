@@ -35,7 +35,8 @@ def get_projects(github_user, query):
         project_data["link"] = title["href"]
         project_data["tags"] = [query]
 
-        impact = project.find("div", class_="f6 mt-2")
+        impact = project.find("div", class_="f6 color-text-secondary mt-2")
+
         if impact:
             impact = impact.find_all("a")
             for data in impact:
