@@ -28,7 +28,7 @@
 - [Unity twitch chat link  🎮 💻](https://github.com/HectorPulido/Unity-twitch-chat-link) 
 - [Consolegameengine  🎮 💻](https://github.com/HectorPulido/ConsoleGameEngine) 
 - [Decentralized twitter with blockchain as base  🔑 💻](https://github.com/HectorPulido/Decentralized-Twitter-with-blockchain-as-base) 
-- [Twitter_bot  🤖 💻](https://github.com/HectorPulido/twitter_bot) 
+- [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
 - [Console render system  🎮 💻](https://github.com/HectorPulido/console-render-system) 
 - [Pong in python  🎮 💻](https://github.com/HectorPulido/pong-in-python) 
 - [Amazon qldb login example  🔑 💻](https://github.com/HectorPulido/Amazon-QLDB-Login-Example) 

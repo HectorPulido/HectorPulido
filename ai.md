@@ -30,7 +30,7 @@
 - [Three genetics algorithm using unity  🤖](https://github.com/HectorPulido/Three-Genetics-Algorithm-Using-Unity) 
 - [Easiest deep rl algorithm with pytorch  🤖](https://github.com/HectorPulido/Easiest-deep-rl-algorithm-with-pytorch) 
 - [Procedural dungeon generation algorithm unity  🤖](https://github.com/HectorPulido/Procedural-Dungeon-Generation-Algorithm-Unity) 
-- [Twitter_bot  🤖 💻](https://github.com/HectorPulido/twitter_bot) 
+- [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
 - [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
 - [Deep learning framework dlf in unity  🤖](https://github.com/HectorPulido/Deep-Learning-Framework-DLF-in-unity) 
