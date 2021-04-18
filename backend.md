@@ -20,8 +20,8 @@
 ## Backend Projects 💻
 - [Unity mmo framework  🎮 💻](https://github.com/HectorPulido/Unity-MMO-Framework) 
 - [Unity arpg online  💻](https://github.com/HectorPulido/Unity-Arpg-Online) 
-- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
+- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Cooklang  💻](https://github.com/HectorPulido/Cooklang) 
 - [Youtubers toolkit  💻](https://github.com/HectorPulido/Youtubers-toolkit) 
