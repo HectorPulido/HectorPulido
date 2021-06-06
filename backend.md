@@ -34,6 +34,7 @@
 - [Amazon qldb login example  🔑 💻](https://github.com/HectorPulido/Amazon-QLDB-Login-Example) 
 - [Expenses tracker  💻](https://github.com/HectorPulido/Expenses-tracker) 
 - [Simple php blog  💻](https://github.com/HectorPulido/Simple-php-blog) 
+- [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
 - [Hectorpulido.github.io  💻](https://github.com/HectorPulido/hectorpulido.github.io) 
 - [Resume generator  💻](https://github.com/HectorPulido/Resume-generator) 
 - [Simple python blog  💻](https://github.com/HectorPulido/Simple-python-blog) 
