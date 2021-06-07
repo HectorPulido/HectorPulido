@@ -21,7 +21,7 @@
 - Python and Flask, Django ⭐
 - Pytorch ⭐
 - C# and .Net Technologies
-- Javascript and NodeJs
+- Rust and WASM ⭐
 - SQL and Relational Databases
 - Linux, AWS and Docker
 - Unity3D ⭐
