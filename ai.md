@@ -27,17 +27,19 @@
 - [Imitation learning in unity  🤖 🎮](https://github.com/HectorPulido/Imitation-learning-in-unity) 
 - [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Three genetics algorithm using unity  🤖](https://github.com/HectorPulido/Three-Genetics-Algorithm-Using-Unity) 
-- [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
 - [Machine learning framework csharp  🤖](https://github.com/HectorPulido/Machine-learning-Framework-Csharp) 
+- [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Procedural dungeon generation algorithm unity  🤖](https://github.com/HectorPulido/Procedural-Dungeon-Generation-Algorithm-Unity) 
 - [Easiest deep rl algorithm with pytorch  🤖](https://github.com/HectorPulido/Easiest-deep-rl-algorithm-with-pytorch) 
-- [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
-- [Deep learning framework dlf in unity  🤖](https://github.com/HectorPulido/Deep-Learning-Framework-DLF-in-unity) 
+- [Human language toolkit chatbot  🤖](https://github.com/HectorPulido/human-language-toolkit-chatbot) 
 - [Rust markov chain chatbot  🤖 💻](https://github.com/HectorPulido/Rust-markov-chain-chatbot) 
 - [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
+- [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
+- [Deep learning framework dlf in unity  🤖](https://github.com/HectorPulido/Deep-Learning-Framework-DLF-in-unity) 
 - [Regex generation by genetic algorithms  🤖](https://github.com/HectorPulido/Regex-generation-by-Genetic-algorithms) 
 - [Parabolic movement opencv  🤖 🎮](https://github.com/HectorPulido/Parabolic-movement-opencv) 
+- [Human language toolkit cosine similarity  🤖](https://github.com/HectorPulido/human-language-toolkit-cosine-similarity) 
 
 
 

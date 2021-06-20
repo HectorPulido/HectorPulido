@@ -34,8 +34,8 @@
 - [Unity battle royale game made with unity  🎮](https://github.com/HectorPulido/Unity-Battle-Royale-game-Made-With-Unity) 
 - [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
 - [Chatbot seq2seq c   🤖](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 
-- [Simple rts made with unity  🎮](https://github.com/HectorPulido/Simple-RTS-Made-With-Unity) 
 - [Worms like game made with unity  🎮](https://github.com/HectorPulido/Worms-like-game-made-with-unity) 
+- [Simple rts made with unity  🎮](https://github.com/HectorPulido/Simple-RTS-Made-With-Unity) 
 - [Mario maker like game made with unity  🎮](https://github.com/HectorPulido/Mario-maker-like-game-made-with-unity) 
 - [Angry birds like game made with unity and c   🎮](https://github.com/HectorPulido/Angry-birds-like-game-made-with-UNITY-and-C-) 
 - [Vectorized multilayer neural network  🤖](https://github.com/HectorPulido/Vectorized-multilayer-neural-network) 
@@ -43,9 +43,9 @@
 
 
 ## Latest videos 📺
-<p align="center"><a href="https://www.youtube.com/watch?v=hvVg72uCMt4" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/hvVg72uCMt4/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCVDKL6v32wnUCY5-idSc7RBUNHyA"/></a>&nbsp;&nbsp;
+<p align="center"><a href="https://www.youtube.com/watch?v=O8YMuxm5lxE" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/O8YMuxm5lxE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBn-SLFQ2CqC2-qzl5daHS-Mu2AZA"/></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=hvVg72uCMt4" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/hvVg72uCMt4/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCVDKL6v32wnUCY5-idSc7RBUNHyA"/></a>&nbsp;&nbsp;
 <a href="https://www.youtube.com/watch?v=yvb-FmRFcoA" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/yvb-FmRFcoA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLADY3A6T0TqnvZMQEDgWRsCW9Uyew"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=GbXSlLvdhyE" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/GbXSlLvdhyE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA5ibx_UJ9yhYpZCrsmxS39p_Zf2g"/></a>&nbsp;&nbsp;
 </p>
 
 
