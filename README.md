@@ -20,25 +20,25 @@
 ## Tech Stack ⌨
 - Python and Flask, Django ⭐
 - Pytorch ⭐
-- C# and .Net Technologies
 - Rust and WASM ⭐
-- SQL and Relational Databases
+- SQL and No relational Databases
 - Linux, AWS and Docker
 - Unity3D ⭐
 - Arduino and electronics
 - ASM for Pics
+- C# and .Net Technologies
 
 
 ## Awesome Projects 📚
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
 - [Unity battle royale game made with unity  🎮](https://github.com/HectorPulido/Unity-Battle-Royale-game-Made-With-Unity) 
 - [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
+- [Unity mmo framework  🎮 💻](https://github.com/HectorPulido/Unity-MMO-Framework) 
 - [Chatbot seq2seq c   🤖](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 
 - [Worms like game made with unity  🎮](https://github.com/HectorPulido/Worms-like-game-made-with-unity) 
 - [Simple rts made with unity  🎮](https://github.com/HectorPulido/Simple-RTS-Made-With-Unity) 
 - [Mario maker like game made with unity  🎮](https://github.com/HectorPulido/Mario-maker-like-game-made-with-unity) 
 - [Angry birds like game made with unity and c   🎮](https://github.com/HectorPulido/Angry-birds-like-game-made-with-UNITY-and-C-) 
-- [Vectorized multilayer neural network  🤖](https://github.com/HectorPulido/Vectorized-multilayer-neural-network) 
 
 
 
