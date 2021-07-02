@@ -53,13 +53,13 @@
             "tech": [
                 "Python and Flask, Django ⭐",
                 "Pytorch ⭐",
-                "C# and .Net Technologies",
                 "Rust and WASM ⭐",
-                "SQL and Relational Databases",
+                "SQL and No relational Databases",
                 "Linux, AWS and Docker",
                 "Unity3D ⭐",
                 "Arduino and electronics",
                 "ASM for Pics"
+                "C# and .Net Technologies",
             ]
         }
     },
