@@ -51,6 +51,7 @@
         "data": {
             "title": "Tech Stack ⌨",
             "tech": [
+                "Applied mathematics ⭐",
                 "Python and Flask, Django ⭐",
                 "Pytorch ⭐",
                 "Rust and WASM ⭐",
@@ -58,8 +59,7 @@
                 "Linux, AWS and Docker",
                 "Unity3D ⭐",
                 "Arduino and electronics",
-                "ASM for Pics",
-                "C# and .Net Technologies"
+                "ASM for Pics"
             ]
         }
     },
