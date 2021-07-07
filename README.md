@@ -18,6 +18,7 @@
 
 
 ## Tech Stack ⌨
+- Applied mathematics ⭐
 - Python and Flask, Django ⭐
 - Pytorch ⭐
 - Rust and WASM ⭐
@@ -26,7 +27,6 @@
 - Unity3D ⭐
 - Arduino and electronics
 - ASM for Pics
-- C# and .Net Technologies
 
 
 ## Awesome Projects 📚
