@@ -38,7 +38,7 @@
 - [Worms like game made with unity  🎮](https://github.com/HectorPulido/Worms-like-game-made-with-unity) 
 - [Simple rts made with unity  🎮](https://github.com/HectorPulido/Simple-RTS-Made-With-Unity) 
 - [Mario maker like game made with unity  🎮](https://github.com/HectorPulido/Mario-maker-like-game-made-with-unity) 
-- [Angry birds like game made with unity and c   🎮](https://github.com/HectorPulido/Angry-birds-like-game-made-with-UNITY-and-C-) 
+- [Vectorized multilayer neural network  🤖](https://github.com/HectorPulido/Vectorized-multilayer-neural-network) 
 
 
 
