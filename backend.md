@@ -19,9 +19,9 @@
 
 ## Backend Projects 💻
 - [Unity mmo framework  🎮 💻](https://github.com/HectorPulido/Unity-MMO-Framework) 
+- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Unity arpg online  💻](https://github.com/HectorPulido/Unity-Arpg-Online) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
-- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
 - [Awesome discord bot  💻](https://github.com/HectorPulido/Awesome-discord-bot) 
 - [Cooklang  💻](https://github.com/HectorPulido/Cooklang) 
