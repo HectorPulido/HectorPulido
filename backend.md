@@ -45,6 +45,7 @@
 - [Resume generator  💻](https://github.com/HectorPulido/Resume-generator) 
 - [Simple python blog  💻](https://github.com/HectorPulido/Simple-python-blog) 
 - [Simple twitchbot  💻](https://github.com/HectorPulido/Simple-TwitchBot) 
+- [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
 
 
 

@@ -39,6 +39,7 @@
 - [Deep learning framework dlf in unity  🤖](https://github.com/HectorPulido/Deep-Learning-Framework-DLF-in-unity) 
 - [Regex generation by genetic algorithms  🤖](https://github.com/HectorPulido/Regex-generation-by-Genetic-algorithms) 
 - [Parabolic movement opencv  🤖 🎮](https://github.com/HectorPulido/Parabolic-movement-opencv) 
+- [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
 - [Human language toolkit cosine similarity  🤖](https://github.com/HectorPulido/human-language-toolkit-cosine-similarity) 
 
 
