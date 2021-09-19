@@ -27,6 +27,7 @@
 - [Awesome discord bot  💻](https://github.com/HectorPulido/Awesome-discord-bot) 
 - [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
 - [Unity twitch chat link  🎮 💻](https://github.com/HectorPulido/Unity-twitch-chat-link) 
+- [Cv generator with rust  💻](https://github.com/HectorPulido/cv-generator-with-rust) 
 - [Youtubers toolkit  💻](https://github.com/HectorPulido/Youtubers-toolkit) 
 - [Cooklang  💻](https://github.com/HectorPulido/Cooklang) 
 - [Consolegameengine  🎮 💻](https://github.com/HectorPulido/ConsoleGameEngine) 
@@ -39,13 +40,12 @@
 - [Console rpg multiplayer role game  💻](https://github.com/HectorPulido/console-rpg-multiplayer-role-game) 
 - [Expenses tracker  💻](https://github.com/HectorPulido/Expenses-tracker) 
 - [Simple php blog  💻](https://github.com/HectorPulido/Simple-php-blog) 
-- [Cv generator with rust  💻](https://github.com/HectorPulido/cv-generator-with-rust) 
+- [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
 - [Wasm conways game of life  💻](https://github.com/HectorPulido/wasm-conways-game-of-life) 
 - [Hectorpulido.github.io  💻](https://github.com/HectorPulido/hectorpulido.github.io) 
 - [Resume generator  💻](https://github.com/HectorPulido/Resume-generator) 
 - [Simple python blog  💻](https://github.com/HectorPulido/Simple-python-blog) 
 - [Simple twitchbot  💻](https://github.com/HectorPulido/Simple-TwitchBot) 
-- [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
 
 
 
