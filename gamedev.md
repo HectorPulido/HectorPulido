@@ -23,6 +23,7 @@
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Parabolic movement opencv  🤖 🎮](https://github.com/HectorPulido/Parabolic-movement-opencv) 
 - [Imitation learning in unity  🤖 🎮](https://github.com/HectorPulido/Imitation-learning-in-unity) 
+- [Rust pong  🎮 💻](https://github.com/HectorPulido/rust-pong) 
 - [Unity twitch chat link  🎮 💻](https://github.com/HectorPulido/Unity-twitch-chat-link) 
 - [Mario maker like game made with unity  🎮](https://github.com/HectorPulido/Mario-maker-like-game-made-with-unity) 
 - [Angry birds like game made with unity and c   🎮](https://github.com/HectorPulido/Angry-birds-like-game-made-with-UNITY-and-C-) 
@@ -47,7 +48,6 @@
 - [Contra like game made with unity  🎮](https://github.com/HectorPulido/Contra-Like-game-made-with-unity) 
 - [Multipourpuse third person shooter unity  🎮](https://github.com/HectorPulido/Multipourpuse-third-person-shooter-unity) 
 - [Ballon fighter clone made with unity  🎮](https://github.com/HectorPulido/Ballon-Fighter-clone-made-with-unity) 
-- [Unity rewind mechanic  🎮](https://github.com/HectorPulido/Unity-Rewind-Mechanic) 
 
 
 
