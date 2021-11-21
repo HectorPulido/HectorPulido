@@ -18,9 +18,9 @@
 
 
 ## AI Projects 🤖
+- [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
-- [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
 - [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
 - [Human language toolkit cosine similarity  🤖](https://github.com/HectorPulido/human-language-toolkit-cosine-similarity) 
 - [Vectorized multilayer neural network  🤖](https://github.com/HectorPulido/Vectorized-multilayer-neural-network) 
