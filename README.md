@@ -30,8 +30,8 @@
 
 
 ## Awesome Projects 📚
-- [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
+- [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
 - [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
 - [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
 - [Human language toolkit cosine similarity  🤖](https://github.com/HectorPulido/human-language-toolkit-cosine-similarity) 
