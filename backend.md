@@ -18,8 +18,8 @@
 
 
 ## Backend Projects 💻
-- [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
+- [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
 - [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
 - [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
 - [Rust markov chain chatbot  🤖 💻](https://github.com/HectorPulido/Rust-markov-chain-chatbot) 
