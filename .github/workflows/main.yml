@@ -43,6 +43,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m 'deploy' 
+          git config --global --add safe.directory /github/workspace
 
       # Upload static files to master
       - name: Force push to master
