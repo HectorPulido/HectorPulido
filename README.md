@@ -31,14 +31,14 @@
 
 ## Awesome Projects 📚
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
-- [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
+- [Signs dataset with pytorch opencv  🤖](https://github.com/HectorPulido/signs-dataset-with-pytorch-opencv) 
+- [Image to emoji  🤖](https://github.com/HectorPulido/image-to-emoji) 
+- [Whatsapp historial analyzer  🤖](https://github.com/HectorPulido/whatsapp-historial-analyzer) 
 - [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
+- [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
 - [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
 - [Human language toolkit cosine similarity  🤖](https://github.com/HectorPulido/human-language-toolkit-cosine-similarity) 
 - [Vectorized multilayer neural network  🤖](https://github.com/HectorPulido/Vectorized-multilayer-neural-network) 
-- [Chatbot seq2seq c   🤖](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 
-- [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
-- [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
 
 
 

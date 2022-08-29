@@ -19,23 +19,25 @@
 
 ## Backend Projects 💻
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
-- [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
 - [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
+- [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
 - [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
 - [Rust markov chain chatbot  🤖 💻](https://github.com/HectorPulido/Rust-markov-chain-chatbot) 
 - [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
+- [Unity mmo framework  🎮 💻](https://github.com/HectorPulido/Unity-MMO-Framework) 
 - [Rust pong  🎮 💻](https://github.com/HectorPulido/rust-pong) 
 - [Unity twitch chat link  🎮 💻](https://github.com/HectorPulido/Unity-twitch-chat-link) 
-- [Unity mmo framework  🎮 💻](https://github.com/HectorPulido/Unity-MMO-Framework) 
 - [Console render system  🎮 💻](https://github.com/HectorPulido/console-render-system) 
 - [Pong in python  🎮 💻](https://github.com/HectorPulido/pong-in-python) 
 - [Consolegameengine  🎮 💻](https://github.com/HectorPulido/ConsoleGameEngine) 
 - [Amazon qldb login example  🔑 💻](https://github.com/HectorPulido/Amazon-QLDB-Login-Example) 
 - [Decentralized twitter with blockchain as base  🔑 💻](https://github.com/HectorPulido/Decentralized-Twitter-with-blockchain-as-base) 
+- [Rust todo app  💻](https://github.com/HectorPulido/rust-todo-app) 
+- [Generic porfolio  💻](https://github.com/HectorPulido/generic-porfolio) 
+- [Cv generator with rust  💻](https://github.com/HectorPulido/cv-generator-with-rust) 
 - [Wasm conways game of life  💻](https://github.com/HectorPulido/wasm-conways-game-of-life) 
 - [Rust blog with login  💻](https://github.com/HectorPulido/rust-blog-with-login) 
-- [Cv generator with rust  💻](https://github.com/HectorPulido/cv-generator-with-rust) 
 - [Awesome discord bot  💻](https://github.com/HectorPulido/Awesome-discord-bot) 
 - [Cooklang  💻](https://github.com/HectorPulido/Cooklang) 
 - [Youtubers toolkit  💻](https://github.com/HectorPulido/Youtubers-toolkit) 
@@ -46,7 +48,6 @@
 - [Simple python blog  💻](https://github.com/HectorPulido/Simple-python-blog) 
 - [Simple php blog  💻](https://github.com/HectorPulido/Simple-php-blog) 
 - [Unity arpg online  💻](https://github.com/HectorPulido/Unity-Arpg-Online) 
-- [Simple twitchbot  💻](https://github.com/HectorPulido/Simple-TwitchBot) 
 
 
 
