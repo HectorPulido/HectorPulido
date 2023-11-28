@@ -48,7 +48,9 @@ def get_projects(github_user, query):
             if "members" not in project_data:
                 project_data["members"] = 0
 
-            project_data["score"] = project_data["stargazers"] + project_data["members"] * 5
+            project_data["score"] = (
+                project_data["stargazers"] + project_data["members"] * 5
+            )
         else:
             project_data["score"] = 0
 
@@ -62,7 +64,7 @@ def get_youtube_data(youtube_username):
     final_data = ";"
 
     url = f"https://www.youtube.com/{youtube_username}/videos"
-    page = requests.get(url)
+    page = requests.get(url, timeout=5)
     soup = BeautifulSoup(page.content, "html.parser")
     scripts = soup.body.find_all("script")
 
@@ -83,30 +85,31 @@ def get_youtube_data(youtube_username):
             if tab["tabRenderer"]["title"] != "Videos":
                 continue
 
-            videos = tab["tabRenderer"]["content"]["sectionListRenderer"]
-            videos = videos["contents"][0]["itemSectionRenderer"]
-            videos = videos["contents"][0]["gridRenderer"]["items"]
+            videos = tab["tabRenderer"]["content"]["richGridRenderer"]["contents"]
 
             for video in videos:
-                if "gridVideoRenderer" not in video:
+                if "richItemRenderer" not in video:
                     continue
+                video = video["richItemRenderer"]
 
-                video = video["gridVideoRenderer"]
+                if "content" not in video:
+                    continue
+                video = video["content"]
 
-                published = ""
-                if "publishedTimeText" in video:
-                    published = video["publishedTimeText"]["simpleText"]
+                if "videoRenderer" not in video:
+                    continue
+                video = video["videoRenderer"]
 
-                view_count_text = ""
-                if "simpleText" in video["viewCountText"]:
-                    view_count_text = video["viewCountText"]["simpleText"]
-
-                video_data = {
-                    "thumbnail": video["thumbnail"]["thumbnails"][-1]["url"],
-                    "title": video["title"]["runs"][0]["text"],
-                    "published": published,
-                    "viewCountText": view_count_text,
-                    "url": f"https://www.youtube.com/watch?v={video['videoId']}",
-                }
-                videos_data.append(video_data)
+                try:
+                    video_data = {
+                        "title": video["title"]["runs"][0]["text"],
+                        "published": video["publishedTimeText"]["simpleText"],
+                        "thumbnail": video["thumbnail"]["thumbnails"][-1]["url"],
+                        "viewCountText": video["viewCountText"]["simpleText"],
+                        "url": f"https://www.youtube.com/watch?v={video['videoId']}",
+                    }
+                    videos_data.append(video_data)
+                except Exception as e:
+                    print("Error parsing video data: ", e)
+                    continue
     return videos_data
