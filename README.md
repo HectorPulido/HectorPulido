@@ -1,7 +1,7 @@
 # Hello, Hector Pulido is Here! 👋
 
 
-`Third Clarke law; Any sufficiently advanced technology is indistinguishable from magic.`<br><em> I'm just a simple **Computational math** MS student, **Mechatronic engineer**, **backend developer**, **#MachineLearning** and **#Gamedev** lover, I have delusion of **youtuber** and now **streamer**, There is no challenge big enough not to try, My code will change the **world** some day.</em>
+`Third Clarke law; Any sufficiently advanced technology is indistinguishable from magic.`<br><em> I'm a data scientist & Indie games dev, my goal is to create technologies and experiences that are indistinguishable from magic and that change the world for the better. 🐑 ❤️</em>
 
 
 <p align="center">
@@ -12,7 +12,7 @@
 </p>
 
 
-<a href="https://twitter.com/Hector_Pulido_">
+<a href="https://pequesoft.net/">
 <img align="right" height="auto" width="200" src="https://github.com/HectorPulido/HectorPulido/raw/master/img/pequesoft.png"/>
 </a>
 
@@ -29,30 +29,31 @@
 - ASM for Pics
 
 
+## About pequesoft 🧸
+We are a couple of indie developers who love to create video games. We love games like Potion craft, Pokemon, Coffe talk, etc. so we decided to create our own games. We are currently working on our first game. <br> <a href="https://pequesoft.net/">Check our website</a>
+
+
 ## Awesome Projects 📚
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
-- [Signs dataset with pytorch opencv  🤖](https://github.com/HectorPulido/signs-dataset-with-pytorch-opencv) 
-- [Image to emoji  🤖](https://github.com/HectorPulido/image-to-emoji) 
-- [Whatsapp historial analyzer  🤖](https://github.com/HectorPulido/whatsapp-historial-analyzer) 
-- [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
-- [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
-- [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
-- [Human language toolkit cosine similarity  🤖](https://github.com/HectorPulido/human-language-toolkit-cosine-similarity) 
-- [Vectorized multilayer neural network  🤖](https://github.com/HectorPulido/Vectorized-multilayer-neural-network) 
+- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
+- [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
+- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
+- [Voice translator  🤖](https://github.com/HectorPulido/Voice-translator) 
+- [Streamlit demos  🤖](https://github.com/HectorPulido/streamlit-demos) 
+- [Godot_rl  🤖 🎮](https://github.com/HectorPulido/godot_rl) 
+- [Godot llama2  🤖 🎮](https://github.com/HectorPulido/godot-llama2) 
+- [Unityandllama2  🤖 🎮](https://github.com/HectorPulido/UnityAndLLama2) 
 
 
 
 ## Latest videos 📺
-<p align="center"><a href="https://www.youtube.com/watch?v=O8YMuxm5lxE" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/O8YMuxm5lxE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBn-SLFQ2CqC2-qzl5daHS-Mu2AZA"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=hvVg72uCMt4" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/hvVg72uCMt4/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCVDKL6v32wnUCY5-idSc7RBUNHyA"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=yvb-FmRFcoA" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/yvb-FmRFcoA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLADY3A6T0TqnvZMQEDgWRsCW9Uyew"/></a>&nbsp;&nbsp;
+<p align="center"><a href="https://www.youtube.com/watch?v=lHnimY94w4o" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/lHnimY94w4o/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCwrlDJpPqE8MPcILJUIyZUlkR9AQ"/></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=mS9kckW6K5w" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/mS9kckW6K5w/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAoNDj1P6ocR_fPnQsFr-XhqVBWTw"/></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=PyBf-slSH8w" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/PyBf-slSH8w/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB5lRntOI2kPHSPqB5MJE6a2j29vA"/></a>&nbsp;&nbsp;
 </p>
 
 
 <br>
-
-<p align="center">
-
 
 <div align="center">
 <h3 align="center">Let's connect 😋</h3>
@@ -66,9 +67,11 @@
 <img align="center" width="30px" alt="Hector's Twitch" src="https://www.vectorlogo.zone/logos/twitch/twitch-icon.svg"/></a> &nbsp; &nbsp;
 <a href="https://www.youtube.com/channel/UCS_iMeH0P0nsIDPvBaJckOw" target="blank">
 <img align="center" width="30px" alt="Hector's Youtube" src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg"/></a> &nbsp; &nbsp;
+<a href="https://www.youtube.com/channel/UCS_iMeH0P0nsIDPvBaJckOw" target="blank">
+<img align="center" width="30px" alt="Pequesoft website" src="https://pequesoft.net/"/></a> &nbsp; &nbsp;
 
 </p>
 
 
-###### [* This is an autogenerated readme](https://github.com/HectorPulido/HectorPulido/tree/master/ReadmeGenerator)
+<div align="center"><em><a href="https://github.com/HectorPulido/HectorPulido/tree/master/ReadmeGenerator">* This is an autogenerated readme click here to see how was done</a></em></div>
 
