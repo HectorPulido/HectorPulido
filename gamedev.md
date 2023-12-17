@@ -18,13 +18,15 @@
 
 
 ## GameDev Projects 🎮
-- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
-- [Godot_rl  🤖 🎮](https://github.com/HectorPulido/godot_rl) 
-- [Godot llama2  🤖 🎮](https://github.com/HectorPulido/godot-llama2) 
-- [Unityandllama2  🤖 🎮](https://github.com/HectorPulido/UnityAndLLama2) 
-- [Owi project  🤖 🎮](https://github.com/HectorPulido/Owi-project) 
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
+- [Godot_rl  🤖 🎮](https://github.com/HectorPulido/godot_rl) 
+- [Unityandllama2  🤖 🎮](https://github.com/HectorPulido/UnityAndLLama2) 
+- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
+- [Godot llama2  🤖 🎮](https://github.com/HectorPulido/godot-llama2) 
+- [Owi project  🤖 🎮](https://github.com/HectorPulido/Owi-project) 
 - [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
+- [Unityturnbasedcombatsystem  🎮](https://github.com/HectorPulido/UnityTurnBasedCombatSystem) 
+- [Unity battle royale game made with unity  🎮](https://github.com/HectorPulido/Unity-Battle-Royale-game-Made-With-Unity) 
 - [Beat em up made with unity  🎮](https://github.com/HectorPulido/Beat-em-up-made-with-unity) 
 - [Simple rts made with unity  🎮](https://github.com/HectorPulido/Simple-RTS-Made-With-Unity) 
 - [My_first_proyects_on_godot  🎮](https://github.com/HectorPulido/My_First_Proyects_On_Godot) 
@@ -36,7 +38,6 @@
 - [Mario maker like game made with unity  🎮](https://github.com/HectorPulido/Mario-maker-like-game-made-with-unity) 
 - [Angry birds like game made with unity and c   🎮](https://github.com/HectorPulido/Angry-birds-like-game-made-with-UNITY-and-C-) 
 - [Worms like game made with unity  🎮](https://github.com/HectorPulido/Worms-like-game-made-with-unity) 
-- [Unity battle royale game made with unity  🎮](https://github.com/HectorPulido/Unity-Battle-Royale-game-Made-With-Unity) 
 - [Game like pokemon  🎮](https://github.com/HectorPulido/Game-Like-Pokemon) 
 - [Console render system  🎮 💻](https://github.com/HectorPulido/console-render-system) 
 - [Pong in python  🎮 💻](https://github.com/HectorPulido/pong-in-python) 
@@ -47,7 +48,6 @@
 - [Conways game of life in unity  🎮](https://github.com/HectorPulido/Conways-Game-of-life-in-unity) 
 - [Unitysimplesnake  🎮](https://github.com/HectorPulido/UnitySimpleSnake) 
 - [Consolegameengine  🎮 💻](https://github.com/HectorPulido/ConsoleGameEngine) 
-- [Pong policy gradients  🎮](https://github.com/HectorPulido/Pong-Policy-gradients) 
 
 
 
