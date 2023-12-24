@@ -18,15 +18,15 @@
 
 
 ## AI Projects 🤖
-- [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
+- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
+- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
+- [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
 - [Godot_rl  🤖 🎮](https://github.com/HectorPulido/godot_rl) 
 - [Unityandllama2  🤖 🎮](https://github.com/HectorPulido/UnityAndLLama2) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
-- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
-- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
 - [Voice translator  🤖](https://github.com/HectorPulido/Voice-translator) 
 - [Streamlit demos  🤖](https://github.com/HectorPulido/streamlit-demos) 
 - [Godot llama2  🤖 🎮](https://github.com/HectorPulido/godot-llama2) 

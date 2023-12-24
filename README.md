@@ -34,22 +34,22 @@ We are a couple of indie developers who love to create video games. We love game
 
 
 ## Awesome Projects 📚
+- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
+- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
 - [Godot_rl  🤖 🎮](https://github.com/HectorPulido/godot_rl) 
 - [Unityandllama2  🤖 🎮](https://github.com/HectorPulido/UnityAndLLama2) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
-- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
-- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
 - [Voice translator  🤖](https://github.com/HectorPulido/Voice-translator) 
 
 
 
 ## Latest videos 📺
-<p align="center"><a href="https://www.youtube.com/watch?v=1VR-TR9KoWA" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/1VR-TR9KoWA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAHupod0Nz3ZaSDTpQKB35NdkuyUA"/></a>&nbsp;&nbsp;
+<p align="center"><a href="https://www.youtube.com/watch?v=Gvr5sY6Sj6k" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/Gvr5sY6Sj6k/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAoTd-ULN8MpOSBlwONwG34Jm2X_g"/></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=1VR-TR9KoWA" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/1VR-TR9KoWA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAHupod0Nz3ZaSDTpQKB35NdkuyUA"/></a>&nbsp;&nbsp;
 <a href="https://www.youtube.com/watch?v=1EEK428hNzo" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/1EEK428hNzo/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBNrBpXMH_vbrKuyBALX-1wWL9b3w"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=lHnimY94w4o" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/lHnimY94w4o/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCwrlDJpPqE8MPcILJUIyZUlkR9AQ"/></a>&nbsp;&nbsp;
 </p>
 
 
