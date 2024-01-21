@@ -34,6 +34,7 @@ We are a couple of indie developers who love to create video games. We love game
 
 
 ## Awesome Projects 📚
+- [Peque nlu  🤖](https://github.com/HectorPulido/peque-nlu) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
 - [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
@@ -42,7 +43,6 @@ We are a couple of indie developers who love to create video games. We love game
 - [Unityandllama2  🤖 🎮](https://github.com/HectorPulido/UnityAndLLama2) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
-- [Voice translator  🤖](https://github.com/HectorPulido/Voice-translator) 
 
 
 

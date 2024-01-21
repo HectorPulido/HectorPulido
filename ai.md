@@ -18,6 +18,7 @@
 
 
 ## AI Projects 🤖
+- [Peque nlu  🤖](https://github.com/HectorPulido/peque-nlu) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
@@ -31,7 +32,6 @@
 - [Streamlit demos  🤖](https://github.com/HectorPulido/streamlit-demos) 
 - [Godot llama2  🤖 🎮](https://github.com/HectorPulido/godot-llama2) 
 - [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
-- [Peque nlu  🤖](https://github.com/HectorPulido/peque-nlu) 
 - [Owi project  🤖 🎮](https://github.com/HectorPulido/Owi-project) 
 - [Signs dataset with pytorch opencv  🤖](https://github.com/HectorPulido/signs-dataset-with-pytorch-opencv) 
 - [Image to emoji  🤖](https://github.com/HectorPulido/image-to-emoji) 
