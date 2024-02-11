@@ -18,6 +18,7 @@
 
 
 ## AI Projects 🤖
+- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Peque nlu  🤖](https://github.com/HectorPulido/peque-nlu) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
@@ -26,7 +27,6 @@
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
 - [Godot_rl  🤖 🎮](https://github.com/HectorPulido/godot_rl) 
 - [Unityandllama2  🤖 🎮](https://github.com/HectorPulido/UnityAndLLama2) 
-- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
 - [Voice translator  🤖](https://github.com/HectorPulido/Voice-translator) 
 - [Streamlit demos  🤖](https://github.com/HectorPulido/streamlit-demos) 

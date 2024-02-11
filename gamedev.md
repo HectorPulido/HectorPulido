@@ -18,10 +18,10 @@
 
 
 ## GameDev Projects 🎮
+- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
 - [Godot_rl  🤖 🎮](https://github.com/HectorPulido/godot_rl) 
 - [Unityandllama2  🤖 🎮](https://github.com/HectorPulido/UnityAndLLama2) 
-- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Godot llama2  🤖 🎮](https://github.com/HectorPulido/godot-llama2) 
 - [Owi project  🤖 🎮](https://github.com/HectorPulido/Owi-project) 
 - [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
