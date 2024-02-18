@@ -18,9 +18,9 @@
 
 
 ## AI Projects 🤖
+- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Peque nlu  🤖](https://github.com/HectorPulido/peque-nlu) 
-- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
 - [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 

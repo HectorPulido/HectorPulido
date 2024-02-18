@@ -18,8 +18,8 @@
 
 
 ## Backend Projects 💻
-- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
+- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
 - [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 

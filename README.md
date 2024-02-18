@@ -34,9 +34,9 @@ We are a couple of indie developers who love to create video games. We love game
 
 
 ## Awesome Projects 📚
+- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Peque nlu  🤖](https://github.com/HectorPulido/peque-nlu) 
-- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
 - [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
