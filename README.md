@@ -47,10 +47,7 @@ We are a couple of indie developers who love to create video games. We love game
 
 
 ## Latest videos 📺
-<p align="center"><a href="https://www.youtube.com/watch?v=Gvr5sY6Sj6k" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/Gvr5sY6Sj6k/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAoTd-ULN8MpOSBlwONwG34Jm2X_g"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=1VR-TR9KoWA" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/1VR-TR9KoWA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAHupod0Nz3ZaSDTpQKB35NdkuyUA"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=1EEK428hNzo" target="blank"><img align="center" width="200px" src="https://i.ytimg.com/vi/1EEK428hNzo/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBNrBpXMH_vbrKuyBALX-1wWL9b3w"/></a>&nbsp;&nbsp;
-</p>
+<p align="center"></p>
 
 
 <br>
