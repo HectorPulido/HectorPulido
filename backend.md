@@ -19,21 +19,21 @@
 
 ## Backend Projects 💻
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
-- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
-- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
+- [Minios  🤖 💻](https://github.com/HectorPulido/minios) 
+- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
+- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
 - [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
 - [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
 - [Rust markov chain chatbot  🤖 💻](https://github.com/HectorPulido/Rust-markov-chain-chatbot) 
+- [Console render system  🎮 💻](https://github.com/HectorPulido/console-render-system) 
 - [Unity twitch chat link  🎮 💻](https://github.com/HectorPulido/Unity-twitch-chat-link) 
 - [Unity mmo framework  🎮 💻](https://github.com/HectorPulido/Unity-MMO-Framework) 
 - [Rust pong  🎮 💻](https://github.com/HectorPulido/rust-pong) 
-- [Console render system  🎮 💻](https://github.com/HectorPulido/console-render-system) 
 - [Pong in python  🎮 💻](https://github.com/HectorPulido/pong-in-python) 
-- [Consolegameengine  🎮 💻](https://github.com/HectorPulido/ConsoleGameEngine) 
 - [Amazon qldb login example  🔑 💻](https://github.com/HectorPulido/Amazon-QLDB-Login-Example) 
-- [Decentralized twitter with blockchain as base  🔑 💻](https://github.com/HectorPulido/Decentralized-Twitter-with-blockchain-as-base) 
+- [Peque3d  💻](https://github.com/HectorPulido/Peque3D) 
 - [Generic porfolio  💻](https://github.com/HectorPulido/generic-porfolio) 
 - [Rust todo app  💻](https://github.com/HectorPulido/rust-todo-app) 
 - [Cv generator with rust  💻](https://github.com/HectorPulido/cv-generator-with-rust) 
@@ -46,8 +46,8 @@
 - [Resume generator  💻](https://github.com/HectorPulido/Resume-generator) 
 - [Expenses tracker  💻](https://github.com/HectorPulido/Expenses-tracker) 
 - [Simple python blog  💻](https://github.com/HectorPulido/Simple-python-blog) 
+- [Consolegameengine  💻](https://github.com/HectorPulido/ConsoleGameEngine) 
 - [Simple php blog  💻](https://github.com/HectorPulido/Simple-php-blog) 
-- [Unity arpg online  💻](https://github.com/HectorPulido/Unity-Arpg-Online) 
 
 
 
@@ -60,13 +60,13 @@
 </div>
 <p align="center">
 <a href="https://www.linkedin.com/in/hector-pulido-17547369/" target="blank">
-<img align="center" width="30px" alt="Hector's LinkedIn" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"/></a> &nbsp; &nbsp;
+<img align="center" width="30px" alt="Hector's LinkedIn" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/linkedin-icon.svg?raw=true"/></a> &nbsp; &nbsp;
 <a href="https://twitter.com/Hector_Pulido_" target="blank">
-<img align="center" width="30px" alt="Hector's Twitter" src="https://www.vectorlogo.zone/logos/twitter/twitter-official.svg"/></a> &nbsp; &nbsp;
+<img align="center" width="30px" alt="Hector's Twitter" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/twitter-official.svg?raw=true"/></a> &nbsp; &nbsp;
 <a href="https://www.twitch.tv/hector_pulido_" target="blank">
-<img align="center" width="30px" alt="Hector's Twitch" src="https://www.vectorlogo.zone/logos/twitch/twitch-icon.svg"/></a> &nbsp; &nbsp;
+<img align="center" width="30px" alt="Hector's Twitch" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/twitch-icon.svg?raw=true"/></a> &nbsp; &nbsp;
 <a href="https://www.youtube.com/channel/UCS_iMeH0P0nsIDPvBaJckOw" target="blank">
-<img align="center" width="30px" alt="Hector's Youtube" src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg"/></a> &nbsp; &nbsp;
+<img align="center" width="30px" alt="Hector's Youtube" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/youtube-icon.svg?raw=true"/></a> &nbsp; &nbsp;
 <a href="https://pequesoft.net/" target="blank">
 <img align="center" width="30px" alt="Pequesoft website" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/pequesoft-favicon.png?raw=true"/></a> &nbsp; &nbsp;
 

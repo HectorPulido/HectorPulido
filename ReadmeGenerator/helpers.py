@@ -1,7 +1,17 @@
-from scraper import get_projects, get_youtube_data, get_pinned
+"""
+Helper functions for the ReadmeGenerator module.
+"""
+
+try:
+    from scraper import get_projects, get_youtube_data, get_pinned
+except ImportError:
+    from .scraper import get_projects, get_youtube_data, get_pinned
 
 
 def process_title(title, context):
+    """
+    Process the title by replacing placeholders with actual values from the context.
+    """
     for key, value in context.items():
         title = title.replace(f"-{key}-", str(value))
 
@@ -11,6 +21,9 @@ def process_title(title, context):
 
 
 def intro(data, context):
+    """
+    Process the introduction section of the README.
+    """
     for key, value in context.items():
         data = data.replace(f"-{key}-", str(value))
 
@@ -18,15 +31,19 @@ def intro(data, context):
 
 
 def description(data, _):
+    """
+    Process the description section of the README.
+    """
     return f"{data}\n"
 
 
 def get_categories(_, context):
+    """
+    Generate the categories section of the README.
+    """
     categories = []
     for category in context["categories"]:
-        link = "https://github.com/{}/{}/blob/master/{}.md".format(
-            context["github_user"], context["github_user"], category["tag"]
-        )
+        link = f'https://github.com/{context["github_user"]}/{context["github_user"]}/blob/master/{category["tag"]}.md'
         template = f"<a href=\"{link}\">{category['emoji']}</a>"
         categories.append(template)
 
@@ -36,19 +53,28 @@ def get_categories(_, context):
 
 
 def right_image(data, _):
+    """
+    Generate the right image section of the README.
+    """
     properties = 'align="right" height="auto" width="200"'
-    return '<a href="{}">\n<img {} src="{}"/>\n</a>\n'.format(
-        data["link"], properties, data["image"]
+    return (
+        f'<a href="{data["link"]}">\n<img {properties} src="{data["image"]}"/>\n</a>\n'
     )
 
 
 def tech_stack(data, context):
+    """
+    Generate the tech stack section of the README.
+    """
     title = process_title(data["title"], context)
     tech = "- " + "\n- ".join(data["tech"])
     return f"{title}\n{tech}\n"
 
 
 def awesome_projects(data, context):
+    """
+    Generate the awesome projects section of the README.
+    """
     title = process_title(data["title"], context)
     projects = context["projects"].copy()
     pinned_projects = []
@@ -91,6 +117,9 @@ def awesome_projects(data, context):
 
 
 def extra(data, context):
+    """
+    Generate the extra section of the README.
+    """
     if "title" in data:
         title = process_title(data["title"], context)
         data = data["data"]
@@ -99,13 +128,16 @@ def extra(data, context):
 
 
 def social(data, context):
+    """
+    Generate the social section of the README.
+    """
     title = process_title(data["title"], context)
 
     properties = 'align="center" width="30px"'
 
-    social = ""
+    social_data = ""
     for social_icon in data["social"]:
-        social += '<a href="{}" {}>\n<img {} alt="{}" src="{}"/></a>{}'.format(
+        social_data += '<a href="{}" {}>\n<img {} alt="{}" src="{}"/></a>{}'.format(
             social_icon["url"],
             'target="blank"',
             properties,
@@ -114,14 +146,20 @@ def social(data, context):
             " &nbsp; &nbsp;\n",
         )
 
-    return f'{title}\n<p align="center">\n{social}\n</p>\n'
+    return f'{title}\n<p align="center">\n{social_data}\n</p>\n'
 
 
 def space(_, __):
+    """
+    Generate a space in the README.
+    """
     return "<br>"
 
 
 def youtube_video_list(data, context):
+    """
+    Generate a list of YouTube videos in the README.
+    """
     title = process_title(data["title"], context)
     videos = get_youtube_data(data["user_id"])
     count = int(data["count"]) if int(data["count"]) <= len(videos) else len(videos)
@@ -134,11 +172,14 @@ def youtube_video_list(data, context):
         if data["show_titles"]:
             for i in range(count):
                 video = videos[i]
-                video_data += f'<p><a href="{video["url"]}" target="blank"><img align="center" width="100px" src="{video["thumbnail"]}"/>&nbsp; &nbsp;{video["title"]}</a></p>'
+                video_data += f'<p><a href="{video["url"]}" target="blank"><img \
+                align="center" width="100px" src="{video["thumbnail"]}"/>&nbsp; \
+                &nbsp;{video["title"]}</a></p>'
         else:
             for i in range(count):
                 video = videos[i]
-                video_data += f'<a href="{video["url"]}" target="blank"><img align="center" width="200px" src="{video["thumbnail"]}"/></a>&nbsp;&nbsp;\n'
+                video_data += f'<a href="{video["url"]}" target="blank"><img \
+                align="center" width="200px" src="{video["thumbnail"]}"/></a>&nbsp;&nbsp;\n'
 
         video_data += "</p>"
     else:
@@ -150,6 +191,9 @@ def youtube_video_list(data, context):
 
 
 def filter_projects(projects):
+    """
+    Filter out duplicate projects based on their name.
+    """
     temp_projects = {}
     for project in projects:
         if project["name"] not in temp_projects:
@@ -160,6 +204,9 @@ def filter_projects(projects):
 
 
 def set_config(github_user, categories):
+    """
+    Set the configuration for the README generation.
+    """
     projects = []
     projects_by_categories = {}
     for category in categories:

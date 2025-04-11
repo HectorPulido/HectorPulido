@@ -1,5 +1,15 @@
+"""
+This script generates a README.md file and category-specific markdown files
+for a GitHub profile based on a configuration file. It reads the configuration
+from a JSON file, processes the data, and generates the markdown files.
+"""
+
 import json
-from helpers import types, set_config
+
+try:
+    from helpers import types, set_config
+except ImportError:
+    from .helpers import types, set_config
 
 FILEPATH = "../"
 FILENAME_BASE = "config_base.json"

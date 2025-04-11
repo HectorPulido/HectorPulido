@@ -19,15 +19,17 @@
 
 ## AI Projects 🤖
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
+- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
+- [Minios  🤖 💻](https://github.com/HectorPulido/minios) 
+- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
+- [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
+- [Simple recomendations systems  🤖](https://github.com/HectorPulido/simple-recomendations-systems) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Peque nlu  🤖](https://github.com/HectorPulido/peque-nlu) 
-- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
-- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
 - [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
 - [Godot_rl  🤖 🎮](https://github.com/HectorPulido/godot_rl) 
 - [Unityandllama2  🤖 🎮](https://github.com/HectorPulido/UnityAndLLama2) 
-- [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
 - [Voice translator  🤖](https://github.com/HectorPulido/Voice-translator) 
 - [Streamlit demos  🤖](https://github.com/HectorPulido/streamlit-demos) 
 - [Godot llama2  🤖 🎮](https://github.com/HectorPulido/godot-llama2) 
@@ -46,8 +48,6 @@
 - [Human language toolkit chatbot  🤖](https://github.com/HectorPulido/human-language-toolkit-chatbot) 
 - [Rust markov chain chatbot  🤖 💻](https://github.com/HectorPulido/Rust-markov-chain-chatbot) 
 - [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
-- [Regex generation by genetic algorithms  🤖](https://github.com/HectorPulido/Regex-generation-by-Genetic-algorithms) 
-- [Machine learning framework csharp  🤖](https://github.com/HectorPulido/Machine-learning-Framework-Csharp) 
 
 
 
@@ -60,13 +60,13 @@
 </div>
 <p align="center">
 <a href="https://www.linkedin.com/in/hector-pulido-17547369/" target="blank">
-<img align="center" width="30px" alt="Hector's LinkedIn" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"/></a> &nbsp; &nbsp;
+<img align="center" width="30px" alt="Hector's LinkedIn" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/linkedin-icon.svg?raw=true"/></a> &nbsp; &nbsp;
 <a href="https://twitter.com/Hector_Pulido_" target="blank">
-<img align="center" width="30px" alt="Hector's Twitter" src="https://www.vectorlogo.zone/logos/twitter/twitter-official.svg"/></a> &nbsp; &nbsp;
+<img align="center" width="30px" alt="Hector's Twitter" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/twitter-official.svg?raw=true"/></a> &nbsp; &nbsp;
 <a href="https://www.twitch.tv/hector_pulido_" target="blank">
-<img align="center" width="30px" alt="Hector's Twitch" src="https://www.vectorlogo.zone/logos/twitch/twitch-icon.svg"/></a> &nbsp; &nbsp;
+<img align="center" width="30px" alt="Hector's Twitch" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/twitch-icon.svg?raw=true"/></a> &nbsp; &nbsp;
 <a href="https://www.youtube.com/channel/UCS_iMeH0P0nsIDPvBaJckOw" target="blank">
-<img align="center" width="30px" alt="Hector's Youtube" src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg"/></a> &nbsp; &nbsp;
+<img align="center" width="30px" alt="Hector's Youtube" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/youtube-icon.svg?raw=true"/></a> &nbsp; &nbsp;
 <a href="https://pequesoft.net/" target="blank">
 <img align="center" width="30px" alt="Pequesoft website" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/pequesoft-favicon.png?raw=true"/></a> &nbsp; &nbsp;
 

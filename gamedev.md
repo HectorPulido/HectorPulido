@@ -25,6 +25,8 @@
 - [Godot llama2  🤖 🎮](https://github.com/HectorPulido/godot-llama2) 
 - [Owi project  🤖 🎮](https://github.com/HectorPulido/Owi-project) 
 - [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
+- [Unity rewind mechanic  🎮](https://github.com/HectorPulido/Unity-Rewind-Mechanic) 
+- [Console render system  🎮 💻](https://github.com/HectorPulido/console-render-system) 
 - [Unityturnbasedcombatsystem  🎮](https://github.com/HectorPulido/UnityTurnBasedCombatSystem) 
 - [Unity battle royale game made with unity  🎮](https://github.com/HectorPulido/Unity-Battle-Royale-game-Made-With-Unity) 
 - [Beat em up made with unity  🎮](https://github.com/HectorPulido/Beat-em-up-made-with-unity) 
@@ -39,7 +41,6 @@
 - [Angry birds like game made with unity and c   🎮](https://github.com/HectorPulido/Angry-birds-like-game-made-with-UNITY-and-C-) 
 - [Worms like game made with unity  🎮](https://github.com/HectorPulido/Worms-like-game-made-with-unity) 
 - [Game like pokemon  🎮](https://github.com/HectorPulido/Game-Like-Pokemon) 
-- [Console render system  🎮 💻](https://github.com/HectorPulido/console-render-system) 
 - [Pong in python  🎮 💻](https://github.com/HectorPulido/pong-in-python) 
 - [Angry birds vr unity  🎮](https://github.com/HectorPulido/angry-birds-vr-unity) 
 - [Rotare clone  🎮](https://github.com/HectorPulido/rotare-clone) 
@@ -47,7 +48,6 @@
 - [Space invaders like game  🎮](https://github.com/HectorPulido/Space-invaders-like-game) 
 - [Conways game of life in unity  🎮](https://github.com/HectorPulido/Conways-Game-of-life-in-unity) 
 - [Unitysimplesnake  🎮](https://github.com/HectorPulido/UnitySimpleSnake) 
-- [Consolegameengine  🎮 💻](https://github.com/HectorPulido/ConsoleGameEngine) 
 
 
 
@@ -60,13 +60,13 @@
 </div>
 <p align="center">
 <a href="https://www.linkedin.com/in/hector-pulido-17547369/" target="blank">
-<img align="center" width="30px" alt="Hector's LinkedIn" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg"/></a> &nbsp; &nbsp;
+<img align="center" width="30px" alt="Hector's LinkedIn" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/linkedin-icon.svg?raw=true"/></a> &nbsp; &nbsp;
 <a href="https://twitter.com/Hector_Pulido_" target="blank">
-<img align="center" width="30px" alt="Hector's Twitter" src="https://www.vectorlogo.zone/logos/twitter/twitter-official.svg"/></a> &nbsp; &nbsp;
+<img align="center" width="30px" alt="Hector's Twitter" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/twitter-official.svg?raw=true"/></a> &nbsp; &nbsp;
 <a href="https://www.twitch.tv/hector_pulido_" target="blank">
-<img align="center" width="30px" alt="Hector's Twitch" src="https://www.vectorlogo.zone/logos/twitch/twitch-icon.svg"/></a> &nbsp; &nbsp;
+<img align="center" width="30px" alt="Hector's Twitch" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/twitch-icon.svg?raw=true"/></a> &nbsp; &nbsp;
 <a href="https://www.youtube.com/channel/UCS_iMeH0P0nsIDPvBaJckOw" target="blank">
-<img align="center" width="30px" alt="Hector's Youtube" src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg"/></a> &nbsp; &nbsp;
+<img align="center" width="30px" alt="Hector's Youtube" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/youtube-icon.svg?raw=true"/></a> &nbsp; &nbsp;
 <a href="https://pequesoft.net/" target="blank">
 <img align="center" width="30px" alt="Pequesoft website" src="https://github.com/HectorPulido/HectorPulido/blob/master/img/pequesoft-favicon.png?raw=true"/></a> &nbsp; &nbsp;
 
