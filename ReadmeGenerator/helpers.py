@@ -67,8 +67,9 @@ def tech_stack(data, context):
     Generate the tech stack section of the README.
     """
     title = process_title(data["title"], context)
+    image = right_image(data["right_image"], "")
     tech = "- " + "\n- ".join(data["tech"])
-    return f"{title}\n{tech}\n"
+    return f"{title}\n{image}\n{tech}\n"
 
 
 def awesome_projects(data, context):
