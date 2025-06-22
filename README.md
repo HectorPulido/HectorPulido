@@ -47,9 +47,9 @@ We are a couple of indie developers who love to create video games. We love game
 
 
 ## Latest videos 📺
-<p align="center"><a href="https://www.youtube.com/watch?v=5Czd9CZR7Kg" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/5Czd9CZR7Kg/0.jpg"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=_byYjHgJo8U" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/_byYjHgJo8U/0.jpg"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=l3ot7jD7XOY" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/l3ot7jD7XOY/0.jpg"/></a>&nbsp;&nbsp;
+<p align="center"><a href="https://www.youtube.com/watch?v=PR6immgOmZ0" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/PR6immgOmZ0/0.jpg"/></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=cDOwQ-FbqZw" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/cDOwQ-FbqZw/0.jpg"/></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=5Czd9CZR7Kg" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/5Czd9CZR7Kg/0.jpg"/></a>&nbsp;&nbsp;
 </p>
 
 

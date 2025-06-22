@@ -34,6 +34,7 @@
 - [Rust pong  🎮 💻](https://github.com/HectorPulido/rust-pong) 
 - [Pong in python  🎮 💻](https://github.com/HectorPulido/pong-in-python) 
 - [Amazon qldb login example  🔑 💻](https://github.com/HectorPulido/Amazon-QLDB-Login-Example) 
+- [Expenses tracker  💻](https://github.com/HectorPulido/Expenses-tracker) 
 - [Pequeroku  💻](https://github.com/HectorPulido/pequeroku) 
 - [Generic porfolio  💻](https://github.com/HectorPulido/generic-porfolio) 
 - [Rust todo app  💻](https://github.com/HectorPulido/rust-todo-app) 
@@ -45,7 +46,6 @@
 - [Console rpg multiplayer role game  💻](https://github.com/HectorPulido/console-rpg-multiplayer-role-game) 
 - [Hectorpulido.github.io  💻](https://github.com/HectorPulido/hectorpulido.github.io) 
 - [Resume generator  💻](https://github.com/HectorPulido/Resume-generator) 
-- [Expenses tracker  💻](https://github.com/HectorPulido/Expenses-tracker) 
 - [Simple python blog  💻](https://github.com/HectorPulido/Simple-python-blog) 
 - [Consolegameengine  💻](https://github.com/HectorPulido/ConsoleGameEngine) 
 
