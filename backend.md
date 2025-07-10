@@ -19,8 +19,8 @@
 
 ## Backend Projects 💻
 - [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
-- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
+- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Minios  🤖 💻](https://github.com/HectorPulido/minios) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
@@ -34,9 +34,9 @@
 - [Rust pong  🎮 💻](https://github.com/HectorPulido/rust-pong) 
 - [Pong in python  🎮 💻](https://github.com/HectorPulido/pong-in-python) 
 - [Amazon qldb login example  🔑 💻](https://github.com/HectorPulido/Amazon-QLDB-Login-Example) 
-- [Pequeroku  💻](https://github.com/HectorPulido/pequeroku) 
+- [Generic portfolio  💻](https://github.com/HectorPulido/generic-portfolio) 
 - [Expenses tracker  💻](https://github.com/HectorPulido/Expenses-tracker) 
-- [Generic porfolio  💻](https://github.com/HectorPulido/generic-porfolio) 
+- [Pequeroku  💻](https://github.com/HectorPulido/pequeroku) 
 - [Rust todo app  💻](https://github.com/HectorPulido/rust-todo-app) 
 - [Cv generator with rust  💻](https://github.com/HectorPulido/cv-generator-with-rust) 
 - [Wasm conways game of life  💻](https://github.com/HectorPulido/wasm-conways-game-of-life) 

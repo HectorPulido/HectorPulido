@@ -34,9 +34,9 @@ We are a couple of indie developers who love to create video games. We love game
 
 
 ## Awesome Projects 📚
-- [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
 - [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
+- [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
 - [Minios  🤖 💻](https://github.com/HectorPulido/minios) 
 - [Simple recomendations systems  🤖](https://github.com/HectorPulido/simple-recomendations-systems) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
@@ -47,9 +47,9 @@ We are a couple of indie developers who love to create video games. We love game
 
 
 ## Latest videos 📺
-<p align="center"><a href="https://www.youtube.com/watch?v=8trllyznEFY" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/8trllyznEFY/0.jpg"/></a>&nbsp;&nbsp;
+<p align="center"><a href="https://www.youtube.com/watch?v=m0N80toLnlE" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/m0N80toLnlE/0.jpg"/></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=8trllyznEFY" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/8trllyznEFY/0.jpg"/></a>&nbsp;&nbsp;
 <a href="https://www.youtube.com/watch?v=SRvMam3SsAY" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/SRvMam3SsAY/0.jpg"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=PR6immgOmZ0" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/PR6immgOmZ0/0.jpg"/></a>&nbsp;&nbsp;
 </p>
 
 
