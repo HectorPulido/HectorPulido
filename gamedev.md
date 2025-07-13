@@ -25,6 +25,7 @@
 - [Godot llama2  🤖 🎮](https://github.com/HectorPulido/godot-llama2) 
 - [Owi project  🤖 🎮](https://github.com/HectorPulido/Owi-project) 
 - [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
+- [Awesomeunityprojects  🎮](https://github.com/HectorPulido/AwesomeUnityProjects) 
 - [Peque3d  🎮 💻](https://github.com/HectorPulido/Peque3D) 
 - [Unity rewind mechanic  🎮](https://github.com/HectorPulido/Unity-Rewind-Mechanic) 
 - [Console render system  🎮 💻](https://github.com/HectorPulido/console-render-system) 
@@ -47,7 +48,6 @@
 - [Rotare clone  🎮](https://github.com/HectorPulido/rotare-clone) 
 - [Pacman online made with unity  🎮](https://github.com/HectorPulido/Pacman-Online-made-with-unity) 
 - [Space invaders like game  🎮](https://github.com/HectorPulido/Space-invaders-like-game) 
-- [Conways game of life in unity  🎮](https://github.com/HectorPulido/Conways-Game-of-life-in-unity) 
 
 
 
