@@ -41,13 +41,13 @@
 - [Rust pong  🎮 💻](https://github.com/HectorPulido/rust-pong) 
 - [Mario maker like game made with unity  🎮](https://github.com/HectorPulido/Mario-maker-like-game-made-with-unity) 
 - [Angry birds like game made with unity and c   🎮](https://github.com/HectorPulido/Angry-birds-like-game-made-with-UNITY-and-C-) 
-- [Worms like game made with unity  🎮](https://github.com/HectorPulido/Worms-like-game-made-with-unity) 
 - [Game like pokemon  🎮](https://github.com/HectorPulido/Game-Like-Pokemon) 
 - [Pong in python  🎮 💻](https://github.com/HectorPulido/pong-in-python) 
 - [Angry birds vr unity  🎮](https://github.com/HectorPulido/angry-birds-vr-unity) 
 - [Rotare clone  🎮](https://github.com/HectorPulido/rotare-clone) 
 - [Pacman online made with unity  🎮](https://github.com/HectorPulido/Pacman-Online-made-with-unity) 
-- [Space invaders like game  🎮](https://github.com/HectorPulido/Space-invaders-like-game) 
+- [Conways game of life in unity  🎮](https://github.com/HectorPulido/Conways-Game-of-life-in-unity) 
+- [Unitysimplesnake  🎮](https://github.com/HectorPulido/UnitySimpleSnake) 
 
 
 
