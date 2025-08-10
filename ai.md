@@ -18,11 +18,11 @@
 
 
 ## AI Projects 🤖
-- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
 - [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
 - [Minios  🤖 💻](https://github.com/HectorPulido/minios) 
+- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Simple recomendations systems  🤖](https://github.com/HectorPulido/simple-recomendations-systems) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Peque nlu  🤖](https://github.com/HectorPulido/peque-nlu) 
@@ -34,6 +34,7 @@
 - [Streamlit demos  🤖](https://github.com/HectorPulido/streamlit-demos) 
 - [Godot llama2  🤖 🎮](https://github.com/HectorPulido/godot-llama2) 
 - [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
+- [Move mouse with hands  🤖](https://github.com/HectorPulido/move-mouse-with-hands) 
 - [Owi project  🤖 🎮](https://github.com/HectorPulido/Owi-project) 
 - [Signs dataset with pytorch opencv  🤖](https://github.com/HectorPulido/signs-dataset-with-pytorch-opencv) 
 - [Image to emoji  🤖](https://github.com/HectorPulido/image-to-emoji) 
@@ -47,7 +48,6 @@
 - [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
 - [Human language toolkit chatbot  🤖](https://github.com/HectorPulido/human-language-toolkit-chatbot) 
 - [Rust markov chain chatbot  🤖 💻](https://github.com/HectorPulido/Rust-markov-chain-chatbot) 
-- [Mario level generator  🤖 🎮](https://github.com/HectorPulido/mario-level-generator) 
 
 
 
