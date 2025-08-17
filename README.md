@@ -34,10 +34,10 @@ We are a couple of indie developers who love to create video games. We love game
 
 
 ## Awesome Projects 📚
-- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
 - [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
-- [Minios  🤖 💻](https://github.com/HectorPulido/minios) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
+- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
+- [Minios  🤖 💻](https://github.com/HectorPulido/minios) 
 - [Simple recomendations systems  🤖](https://github.com/HectorPulido/simple-recomendations-systems) 
 - [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Peque nlu  🤖](https://github.com/HectorPulido/peque-nlu) 
