@@ -18,9 +18,9 @@
 
 
 ## AI Projects 🤖
-- [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
-- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
 - [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
+- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
+- [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
 - [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Minios  🤖 💻](https://github.com/HectorPulido/minios) 
 - [Simple recomendations systems  🤖](https://github.com/HectorPulido/simple-recomendations-systems) 
