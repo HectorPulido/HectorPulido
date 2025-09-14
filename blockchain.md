@@ -18,8 +18,7 @@
 
 
 ## Blockchain Projects 🔑
-- [Amazon qldb login example  🔑 💻](https://github.com/HectorPulido/Amazon-QLDB-Login-Example) 
-- [Decentralized twitter with blockchain as base  🔑](https://github.com/HectorPulido/Decentralized-Twitter-with-blockchain-as-base) 
+- [Decentralized twitter with blockchain as base  🔑 💻](https://github.com/HectorPulido/Decentralized-Twitter-with-blockchain-as-base) 
 
 
 
