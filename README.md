@@ -18,6 +18,10 @@
 
 
 ## Tech Stack ⌨
+<a href="https://pequesoft.net/">
+<img align="right" height="auto" width="200" src="https://github.com/HectorPulido/HectorPulido/raw/master/img/pequesoft.png"/>
+</a>
+
 - Applied mathematics ⭐
 - Python and Flask, Django ⭐
 - Pytorch ⭐
@@ -47,9 +51,9 @@ We are a couple of indie developers who love to create video games. We love game
 
 
 ## Latest videos 📺
-<p align="center"><a href="https://www.youtube.com/watch?v=_4H1FltwGlQ" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/_4H1FltwGlQ/0.jpg"/></a>&nbsp;&nbsp;
+<p align="center"><a href="https://www.youtube.com/watch?v=AhJ-EDuDMC4" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/AhJ-EDuDMC4/0.jpg"/></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=_4H1FltwGlQ" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/_4H1FltwGlQ/0.jpg"/></a>&nbsp;&nbsp;
 <a href="https://www.youtube.com/watch?v=BPaqnhk1J2E" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/BPaqnhk1J2E/0.jpg"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=_KtFEbdjp7k" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/_KtFEbdjp7k/0.jpg"/></a>&nbsp;&nbsp;
 </p>
 
 
