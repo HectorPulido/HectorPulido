@@ -40,13 +40,6 @@
         "data": {}
     },
     {
-        "type": "rightImage",
-        "data": {
-            "image": "https://github.com/HectorPulido/HectorPulido/raw/master/img/pequesoft.png",
-            "link": "https://pequesoft.net/"
-        }
-    },
-    {
         "type": "techStack",
         "data": {
             "title": "Tech Stack ⌨",
