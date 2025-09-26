@@ -50,6 +50,10 @@
         "type": "techStack",
         "data": {
             "title": "Tech Stack ⌨",
+            "right_image":{
+                "image": "https://github.com/HectorPulido/HectorPulido/raw/master/img/pequesoft.png",
+                "link": "https://pequesoft.net/"
+            },
             "tech": [
                 "Applied mathematics ⭐",
                 "Python and Flask, Django ⭐",
