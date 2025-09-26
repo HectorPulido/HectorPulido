@@ -12,11 +12,6 @@
 </p>
 
 
-<a href="https://pequesoft.net/">
-<img align="right" height="auto" width="200" src="https://github.com/HectorPulido/HectorPulido/raw/master/img/pequesoft.png"/>
-</a>
-
-
 ## Tech Stack ⌨
 <a href="https://pequesoft.net/">
 <img align="right" height="auto" width="200" src="https://github.com/HectorPulido/HectorPulido/raw/master/img/pequesoft.png"/>
