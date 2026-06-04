@@ -2,11 +2,29 @@
 Scraper module for GitHub and YouTube data.
 """
 
-import json
 import re
+import xml.etree.ElementTree as ET
 
 import requests
 from bs4 import BeautifulSoup
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+}
+
+# Headers for the GitHub REST API. A User-Agent is required. Unauthenticated, the
+# Search API allows 10 req/min, plenty for the few searches we make per run.
+GITHUB_API_HEADERS = {
+    "User-Agent": "ReadmeGenerator",
+    "Accept": "application/vnd.github+json",
+}
+
+# Namespaces used by the YouTube channel RSS feed.
+YT_FEED_NS = {
+    "atom": "http://www.w3.org/2005/Atom",
+    "yt": "http://www.youtube.com/xml/schemas/2015",
+    "media": "http://search.yahoo.com/mrss/",
+}
 
 
 def get_pinned(github_user):
@@ -27,101 +45,115 @@ def get_pinned(github_user):
 
 def get_projects(github_user, query):
     """
-    Get projects from a GitHub user profile based on a query.
+    Get a user's source repositories tagged with a given topic, using the GitHub
+    Search API. Results are paginated so they are not capped at a single page.
     """
-    github_url = (
-        f"https://github.com/{github_user}?tab=repositories&q={query}&type=source"
-    )
-    page = requests.get(github_url, timeout=5)
+    api_url = "https://api.github.com/search/repositories"
+    search = f"topic:{query} user:{github_user} fork:false"
 
-    soup = BeautifulSoup(page.content, "html.parser")
-    projects = soup.body.find("ul", {"data-filterable-for": "your-repos-filter"})
-    if not projects:
-        return []
+    items = []
+    page = 1
+    while True:
+        response = requests.get(
+            api_url,
+            params={
+                "q": search,
+                "per_page": 100,
+                "page": page,
+                "sort": "stars",
+                "order": "desc",
+            },
+            timeout=10,
+            headers=GITHUB_API_HEADERS,
+        )
+        data = response.json()
+        batch = data.get("items", [])
+        items.extend(batch)
+        if not batch or len(items) >= data.get("total_count", 0):
+            break
+        page += 1
 
-    projects = projects.find_all("li")
     projects_parsed = []
-
-    for project in projects:
-        project_data = {}
-        title = project.find("h3").a
-        project_data["name"] = title.text.strip().replace("-", " ").capitalize()
-        project_data["link"] = title["href"]
-        project_data["tags"] = [query]
-
-        impact = project.find("div", class_="f6 color-text-secondary mt-2")
-
-        if impact:
-            impact = impact.find_all("a")
-            for data in impact:
-                project_data[data["href"].split("/")[-1]] = int(data.text.strip())
-
-            if "stargazers" not in project_data:
-                project_data["stargazers"] = 0
-
-            if "members" not in project_data:
-                project_data["members"] = 0
-
-            project_data["score"] = (
-                project_data["stargazers"] + project_data["members"] * 5
-            )
-        else:
-            project_data["score"] = 0
-
-        projects_parsed.append(project_data)
+    for repo in items:
+        stargazers = repo.get("stargazers_count", 0)
+        members = repo.get("forks_count", 0)
+        projects_parsed.append(
+            {
+                "name": repo["name"].replace("-", " ").capitalize(),
+                "link": f"/{repo['full_name']}",
+                "tags": [query],
+                "stargazers": stargazers,
+                "members": members,
+                "score": stargazers + members * 5,
+            }
+        )
 
     return projects_parsed
 
 
+def _resolve_channel_id(youtube_username):
+    """
+    Resolve a YouTube channel id (UC...) from a handle, custom url or channel id.
+    """
+    youtube_username = youtube_username.strip("/")
+
+    # Already a bare channel id.
+    if re.fullmatch(r"UC[\w-]+", youtube_username):
+        return youtube_username
+
+    # Path like "channel/UC..." already contains the id.
+    match = re.search(r"channel/(UC[\w-]+)", youtube_username)
+    if match:
+        return match.group(1)
+
+    url = f"https://www.youtube.com/{youtube_username}"
+    page = requests.get(url, timeout=10, headers=HEADERS)
+    html = page.content.decode("utf-8", errors="ignore")
+
+    match = re.search(r'"(?:channelId|externalId)":"(UC[\w-]+)"', html)
+    if not match:
+        match = re.search(r"channel/(UC[\w-]+)", html)
+    if not match:
+        raise ValueError(f"Could not resolve channel id for '{youtube_username}'")
+
+    return match.group(1)
+
+
 def get_youtube_data(youtube_username):
     """
-    Get YouTube data from a user's channel.
+    Get the latest videos from a YouTube channel using the official RSS feed.
     """
-    regex = r'""([\sa-zA-Z0-9áéíóúÁÉÍÓÚ]+)""'
-    replacement = r'"\1"'
-
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
-    }
-
-    url = f"https://www.youtube.com/{youtube_username}/videos"
-    page = requests.get(url, timeout=5, headers=headers)
-    html_str = page.content.decode("utf-8")
-
-    json_string = html_str.split("var ytInitialData = ")[-1].split(";</script>")[0]
-    cleaned_json_string = json_string.replace("\n", " ").replace("\r", " ")
-    cleaned_json_string = re.sub(regex, replacement, cleaned_json_string)
-    json_data = json.loads(cleaned_json_string, strict=False)
+    channel_id = _resolve_channel_id(youtube_username)
+    feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+    page = requests.get(feed_url, timeout=10, headers=HEADERS)
+    root = ET.fromstring(page.content)
 
     video_list = []
-    tabs = json_data["contents"]["twoColumnBrowseResultsRenderer"]["tabs"]
-    for tab in tabs:
-        if tab.get("tabRenderer", {}).get("title", "").lower() not in [
-            "videos",
-            "vídeos",
-            "video",
-        ]:
+    for entry in root.findall("atom:entry", YT_FEED_NS):
+        video_id = entry.findtext("yt:videoId", default="", namespaces=YT_FEED_NS)
+        if not video_id:
             continue
-        for video in tab["tabRenderer"]["content"]["richGridRenderer"]["contents"]:
-            video_data = {}
-            if "richItemRenderer" not in video:
-                continue
-            video_data["title"] = video["richItemRenderer"]["content"]["videoRenderer"][
-                "title"
-            ]["runs"][0]["text"]
-            video_data["id"] = video["richItemRenderer"]["content"]["videoRenderer"][
-                "videoId"
-            ]
-            video_data["url"] = f"https://www.youtube.com/watch?v={video_data['id']}"
-            video_data["thumbnail"] = (
-                f"https://img.youtube.com/vi/{video_data['id']}/0.jpg"
-            )
-            video_data["published"] = video["richItemRenderer"]["content"][
-                "videoRenderer"
-            ]["publishedTimeText"]["simpleText"]
-            video_data["viewCountText"] = video["richItemRenderer"]["content"][
-                "videoRenderer"
-            ]["viewCountText"]["simpleText"]
-            video_list.append(video_data)
-        break
+
+        views = ""
+        stats = entry.find(
+            "media:group/media:community/media:statistics", YT_FEED_NS
+        )
+        if stats is not None:
+            views = stats.get("views", "")
+
+        video_list.append(
+            {
+                "title": entry.findtext(
+                    "atom:title", default="", namespaces=YT_FEED_NS
+                ),
+                "id": video_id,
+                "url": f"https://www.youtube.com/watch?v={video_id}",
+                "thumbnail": f"https://img.youtube.com/vi/{video_id}/0.jpg",
+                "published": entry.findtext(
+                    "atom:published", default="", namespaces=YT_FEED_NS
+                ),
+                "viewCountText": views,
+            }
+        )
+
     return video_list

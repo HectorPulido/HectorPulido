@@ -33,22 +33,22 @@ We are a couple of indie developers who love to create video games. We love game
 
 
 ## Awesome Projects 📚
-- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
-- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
-- [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
-- [Minios  🤖 💻](https://github.com/HectorPulido/minios) 
-- [Simple recomendations systems  🤖](https://github.com/HectorPulido/simple-recomendations-systems) 
-- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
-- [Peque nlu  🤖](https://github.com/HectorPulido/peque-nlu) 
-- [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
+- [Unity battle royale game made with unity  🎮](https://github.com/HectorPulido/Unity-Battle-Royale-game-Made-With-Unity) 
+- [Unity mmo framework  🎮 💻](https://github.com/HectorPulido/Unity-MMO-Framework) 
+- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
+- [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
+- [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
+- [Unityplantsvszombiesclone  🎮](https://github.com/HectorPulido/UnityPlantsVsZombiesClone) 
+- [Chatbot seq2seq c   🤖](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 
+- [Cv generator with rust  💻](https://github.com/HectorPulido/cv-generator-with-rust) 
 
 
 
 ## Latest videos 📺
-<p align="center"><a href="https://www.youtube.com/watch?v=48-RNs_fUm8" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/48-RNs_fUm8/0.jpg"/></a>&nbsp;&nbsp;
+<p align="center"><a href="https://www.youtube.com/watch?v=J1hE5VFGMlI" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/J1hE5VFGMlI/0.jpg"/></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=48-RNs_fUm8" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/48-RNs_fUm8/0.jpg"/></a>&nbsp;&nbsp;
 <a href="https://www.youtube.com/watch?v=P8R5deaICpY" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/P8R5deaICpY/0.jpg"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=4-snsfY1nh4" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/4-snsfY1nh4/0.jpg"/></a>&nbsp;&nbsp;
 </p>
 
 

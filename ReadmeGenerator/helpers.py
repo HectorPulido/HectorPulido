@@ -78,20 +78,16 @@ def awesome_projects(data, context):
     """
     title = process_title(data["title"], context)
     projects = context["projects"].copy()
-    pinned_projects = []
 
     if data["ignore_pinned"]:
         pinned_projects = context["pinned_projects"]
-        for project in projects:
-            link = project["link"]
-            if any([pinned_project in link for pinned_project in pinned_projects]):
-                projects.remove(project)
-                continue
+        projects = [
+            project
+            for project in projects
+            if not any(pinned in project["link"] for pinned in pinned_projects)
+        ]
 
-    data_count = int(data["count"])
-    len_projects = len(projects)
-
-    count = data_count if data_count <= len_projects else len_projects
+    count = min(int(data["count"]), len(projects))
 
     projects_data = ""
 
@@ -163,7 +159,7 @@ def youtube_video_list(data, context):
     """
     title = process_title(data["title"], context)
     videos = get_youtube_data(data["user_id"])
-    count = int(data["count"]) if int(data["count"]) <= len(videos) else len(videos)
+    count = min(int(data["count"]), len(videos))
 
     video_data = ""
 

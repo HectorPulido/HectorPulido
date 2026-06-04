@@ -23,11 +23,12 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
         with:
-          python-version: '3.11.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-          architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
+          python-version: '3.11' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+          cache: 'pip'
+          cache-dependency-path: ReadmeGenerator/requirements.txt
 
       # Runs a set of commands using the runners shell
       - name: Generate static files
@@ -39,11 +40,11 @@ jobs:
           
       - name: Commit changes
         run: |
-          git add -A
+          git config --global --add safe.directory /github/workspace
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m 'deploy' 
-          git config --global --add safe.directory /github/workspace
+          git add -A
+          git diff --cached --quiet || git commit -m 'deploy'
 
       # Upload static files to master
       - name: Force push to master
