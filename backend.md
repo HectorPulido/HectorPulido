@@ -46,6 +46,7 @@
 - [Simple twitchbot  💻](https://github.com/HectorPulido/Simple-TwitchBot) 
 - [Hectorpulido.github.io  💻](https://github.com/HectorPulido/hectorpulido.github.io) 
 - [Generic portfolio  💻](https://github.com/HectorPulido/generic-portfolio) 
+- [Mavis youtube video optimizer  🤖 💻](https://github.com/HectorPulido/MAVIS-Youtube-Video-Optimizer) 
 
 
 
