@@ -37,7 +37,6 @@
 - [Punch out like game made with unity  🎮](https://github.com/HectorPulido/Punch-out-Like-game-made-with-unity) 
 - [Draw in unity 3d  🎮](https://github.com/HectorPulido/Draw-In-Unity-3D) 
 - [Procedural dungeon generation algorithm unity  🤖 🎮](https://github.com/HectorPulido/Procedural-Dungeon-Generation-Algorithm-Unity) 
-- [Owi project  🤖 🎮](https://github.com/HectorPulido/Owi-project) 
 - [Multipourpuse third person shooter unity  🎮](https://github.com/HectorPulido/Multipourpuse-third-person-shooter-unity) 
 - [Unitysimpleinventorysystem  🎮](https://github.com/HectorPulido/UnitySimpleInventorySystem) 
 - [Unity minesweeper clone  🎮](https://github.com/HectorPulido/Unity-Minesweeper-clone) 
