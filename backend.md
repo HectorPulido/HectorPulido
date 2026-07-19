@@ -43,8 +43,8 @@
 - [Rust blog with login  💻](https://github.com/HectorPulido/rust-blog-with-login) 
 - [Rust todo app  💻](https://github.com/HectorPulido/rust-todo-app) 
 - [Wasm conways game of life  💻](https://github.com/HectorPulido/wasm-conways-game-of-life) 
-- [Hectorpulido.github.io  💻](https://github.com/HectorPulido/hectorpulido.github.io) 
 - [Simple twitchbot  💻](https://github.com/HectorPulido/Simple-TwitchBot) 
+- [Hectorpulido.github.io  💻](https://github.com/HectorPulido/hectorpulido.github.io) 
 - [Generic portfolio  💻](https://github.com/HectorPulido/generic-portfolio) 
 - [Mavis youtube video optimizer  🤖 💻](https://github.com/HectorPulido/MAVIS-Youtube-Video-Optimizer) 
 
