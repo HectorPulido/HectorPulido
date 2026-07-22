@@ -13,7 +13,10 @@ import requests
 from bs4 import BeautifulSoup
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36",
+    # Pin the language so YouTube doesn't auto-translate video titles based on
+    # where the request runs (VM vs CI), which would churn the video cache.
+    "Accept-Language": "es-CO,es;q=0.9,en;q=0.8",
 }
 
 # Headers for the GitHub REST API. A User-Agent is required. Unauthenticated, the
