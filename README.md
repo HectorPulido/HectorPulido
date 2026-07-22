@@ -33,15 +33,6 @@ We are a couple of indie developers who love to create video games. We love game
 
 
 ## Awesome Projects 📚
-- [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
-- [Unity battle royale game made with unity  🎮](https://github.com/HectorPulido/Unity-Battle-Royale-game-Made-With-Unity) 
-- [Unity mmo framework  🎮 💻](https://github.com/HectorPulido/Unity-MMO-Framework) 
-- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
-- [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
-- [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
-- [Unityplantsvszombiesclone  🎮](https://github.com/HectorPulido/UnityPlantsVsZombiesClone) 
-- [Chatbot seq2seq c   🤖](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 
-- [Cv generator with rust  💻](https://github.com/HectorPulido/cv-generator-with-rust) 
 
 
 
