@@ -84,7 +84,8 @@
             "user_id": "c/HectorAndresPulidoPalmar",
             "count": 3,
             "show_thumbnails": true,
-            "show_titles": false
+            "show_titles": false,
+            "exclude_shorts": true
         }
     },
     {

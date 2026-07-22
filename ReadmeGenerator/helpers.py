@@ -158,7 +158,9 @@ def youtube_video_list(data, context):
     Generate a list of YouTube videos in the README.
     """
     title = process_title(data["title"], context)
-    videos = get_youtube_data(data["user_id"])
+    videos = get_youtube_data(
+        data["user_id"], exclude_shorts=data.get("exclude_shorts", False)
+    )
     count = min(int(data["count"]), len(videos))
 
     video_data = ""

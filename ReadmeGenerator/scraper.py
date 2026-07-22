@@ -163,71 +163,45 @@ def _resolve_channel_id(youtube_username):
     raise ValueError(f"Could not resolve channel id for '{youtube_username}'")
 
 
-def _fetch_feed(channel_id):
+def _video_entry(video_id, title, published="", views=""):
     """
-    Fetch and parse the RSS feed for a channel id, or None if it isn't valid
-    XML (YouTube answers 404s and errors with an HTML page).
+    Build the video dict used by the README templates.
     """
-    feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+    return {
+        "title": title,
+        "id": video_id,
+        "url": f"https://www.youtube.com/watch?v={video_id}",
+        "thumbnail": f"https://img.youtube.com/vi/{video_id}/0.jpg",
+        "published": published,
+        "viewCountText": views,
+    }
+
+
+def _fetch_feed(feed_url):
+    """
+    Fetch and parse an RSS feed URL, or None if it isn't valid XML. YouTube's
+    feed endpoint answers errors with an HTML page, and since ~2026 it also
+    randomly 404s valid feeds, so failures here are expected and retryable.
+    """
     page = requests.get(feed_url, timeout=10, headers=HEADERS)
     if page.status_code != 200:
-        print(
-            f"YouTube feed for {channel_id}: HTTP {page.status_code}",
-            file=sys.stderr,
-        )
+        print(f"{feed_url}: HTTP {page.status_code}", file=sys.stderr)
         return None
     try:
         return ET.fromstring(page.content)
     except ET.ParseError as error:
         print(
-            f"YouTube feed for {channel_id}: invalid XML ({error}), "
+            f"{feed_url}: invalid XML ({error}), "
             f"starts with {page.content[:80]!r}",
             file=sys.stderr,
         )
         return None
 
 
-def get_youtube_data(youtube_username, retries=3):
+def _parse_feed_entries(root):
     """
-    Get the latest videos from a YouTube channel using the official RSS feed.
-    The resolved channel id is cached on disk; the channel page is only
-    scraped when there is no cached id or its feed stops working. If YouTube
-    can't be reached at all, the last successful video list is returned.
+    Extract the video list from a parsed YouTube RSS feed.
     """
-    cache = _load_json_cache(CHANNEL_ID_CACHE)
-
-    root = None
-    channel_id = cache.get(youtube_username)
-    if channel_id:
-        root = _fetch_feed(channel_id)
-
-    if root is None:
-        for attempt in range(retries):
-            if attempt:
-                time.sleep(2)
-            try:
-                channel_id = _resolve_channel_id(youtube_username)
-            except ValueError as error:
-                print(error, file=sys.stderr)
-                continue
-            root = _fetch_feed(channel_id)
-            if root is not None:
-                break
-
-    if root is None:
-        video_cache = _load_json_cache(VIDEO_CACHE)
-        if youtube_username in video_cache:
-            print(
-                f"YouTube unreachable, using cached videos for '{youtube_username}'",
-                file=sys.stderr,
-            )
-            return video_cache[youtube_username]
-        raise ValueError(f"Could not fetch YouTube feed for '{youtube_username}'")
-
-    if cache.get(youtube_username) != channel_id:
-        cache[youtube_username] = channel_id
-        _save_json_cache(CHANNEL_ID_CACHE, cache)
-
     video_list = []
     for entry in root.findall("atom:entry", YT_FEED_NS):
         video_id = entry.findtext("yt:videoId", default="", namespaces=YT_FEED_NS)
@@ -242,23 +216,141 @@ def get_youtube_data(youtube_username, retries=3):
             views = stats.get("views", "")
 
         video_list.append(
-            {
-                "title": entry.findtext(
-                    "atom:title", default="", namespaces=YT_FEED_NS
-                ),
-                "id": video_id,
-                "url": f"https://www.youtube.com/watch?v={video_id}",
-                "thumbnail": f"https://img.youtube.com/vi/{video_id}/0.jpg",
-                "published": entry.findtext(
+            _video_entry(
+                video_id,
+                entry.findtext("atom:title", default="", namespaces=YT_FEED_NS),
+                published=entry.findtext(
                     "atom:published", default="", namespaces=YT_FEED_NS
                 ),
-                "viewCountText": views,
-            }
+                views=views,
+            )
         )
 
-    if video_list:
+    return video_list
+
+
+def _scrape_playlist_videos(playlist_id, limit=15):
+    """
+    Scrape a playlist page for its videos (newest first), as a fallback for
+    when the RSS feed endpoint is down. Returns None on failure.
+    """
+    url = f"https://www.youtube.com/playlist?list={playlist_id}"
+    try:
+        page = requests.get(url, timeout=15, headers=HEADERS)
+    except requests.RequestException as error:
+        print(f"{url}: {error}", file=sys.stderr)
+        return None
+    if page.status_code != 200:
+        print(f"{url}: HTTP {page.status_code}", file=sys.stderr)
+        return None
+
+    html = page.content.decode("utf-8", errors="ignore")
+    match = re.search(r"ytInitialData\s*=\s*(\{.*?\});\s*</script>", html, re.DOTALL)
+    if not match:
+        print(f"{url}: no ytInitialData found", file=sys.stderr)
+        return None
+    try:
+        data = json.loads(match.group(1))
+    except ValueError as error:
+        print(f"{url}: bad ytInitialData ({error})", file=sys.stderr)
+        return None
+
+    video_list = []
+
+    def walk(node):
+        if isinstance(node, dict):
+            # Playlist items are lockupViewModel nodes (older pages used
+            # playlistVideoRenderer, kept for compatibility).
+            if "lockupViewModel" in node:
+                view = node["lockupViewModel"]
+                video_id = view.get("contentId", "")
+                title = (
+                    view.get("metadata", {})
+                    .get("lockupMetadataViewModel", {})
+                    .get("title", {})
+                    .get("content", "")
+                )
+                if re.fullmatch(r"[\w-]{11}", video_id):
+                    video_list.append(_video_entry(video_id, title))
+            elif "playlistVideoRenderer" in node:
+                view = node["playlistVideoRenderer"]
+                video_id = view.get("videoId", "")
+                title = "".join(
+                    run.get("text", "")
+                    for run in view.get("title", {}).get("runs", [])
+                )
+                if video_id:
+                    video_list.append(_video_entry(video_id, title))
+            for value in node.values():
+                walk(value)
+        elif isinstance(node, list):
+            for value in node:
+                walk(value)
+
+    walk(data)
+    return video_list[:limit] or None
+
+
+def get_youtube_data(youtube_username, retries=3, exclude_shorts=False):
+    """
+    Get the latest videos from a YouTube channel. With exclude_shorts, only
+    long-form uploads are returned (via the channel's auto-generated UULF
+    playlist). Sources, in order: the official RSS feed, scraping the playlist
+    page, and finally the last successful result cached on disk.
+    """
+    cache = _load_json_cache(CHANNEL_ID_CACHE)
+
+    channel_id = cache.get(youtube_username)
+    if not channel_id:
+        for attempt in range(retries):
+            if attempt:
+                time.sleep(2)
+            try:
+                channel_id = _resolve_channel_id(youtube_username)
+                break
+            except (ValueError, requests.RequestException) as error:
+                print(error, file=sys.stderr)
+        if channel_id:
+            cache[youtube_username] = channel_id
+            _save_json_cache(CHANNEL_ID_CACHE, cache)
+
+    video_list = None
+    if channel_id:
+        if exclude_shorts:
+            # UULF<id> is the auto-generated "long-form uploads" playlist.
+            playlist_id = "UULF" + channel_id[2:]
+            feed_url = (
+                f"https://www.youtube.com/feeds/videos.xml?playlist_id={playlist_id}"
+            )
+        else:
+            playlist_id = None
+            feed_url = (
+                f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+            )
+
+        for attempt in range(retries):
+            if attempt:
+                time.sleep(2)
+            root = _fetch_feed(feed_url)
+            if root is not None:
+                video_list = _parse_feed_entries(root)
+                break
+
+        if video_list is None and playlist_id:
+            video_list = _scrape_playlist_videos(playlist_id)
+
+    if not video_list:
         video_cache = _load_json_cache(VIDEO_CACHE)
-        video_cache[youtube_username] = video_list
-        _save_json_cache(VIDEO_CACHE, video_cache)
+        if youtube_username in video_cache:
+            print(
+                f"YouTube unreachable, using cached videos for '{youtube_username}'",
+                file=sys.stderr,
+            )
+            return video_cache[youtube_username]
+        raise ValueError(f"Could not fetch YouTube videos for '{youtube_username}'")
+
+    video_cache = _load_json_cache(VIDEO_CACHE)
+    video_cache[youtube_username] = video_list
+    _save_json_cache(VIDEO_CACHE, video_cache)
 
     return video_list
