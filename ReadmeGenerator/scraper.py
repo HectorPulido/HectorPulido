@@ -5,6 +5,7 @@ Scraper module for GitHub and YouTube data.
 import json
 import os
 import re
+import sys
 import time
 import xml.etree.ElementTree as ET
 
@@ -33,6 +34,13 @@ YT_FEED_NS = {
 # normal runs never need to scrape the channel page.
 CHANNEL_ID_CACHE = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), "channel_id_cache.json"
+)
+
+# Last successful video list per username, committed with the repo. YouTube
+# intermittently blocks datacenter IPs (e.g. GitHub Actions runners); falling
+# back to this keeps the videos section in the README instead of dropping it.
+VIDEO_CACHE = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "videos_cache.json"
 )
 
 
@@ -100,22 +108,22 @@ def get_projects(github_user, query):
     return projects_parsed
 
 
-def _load_channel_id_cache():
+def _load_json_cache(path):
     """
-    Load the channel id cache, returning an empty dict if missing or corrupt.
+    Load a JSON cache file, returning an empty dict if missing or corrupt.
     """
     try:
-        with open(CHANNEL_ID_CACHE, "r", encoding="utf-8") as file:
+        with open(path, "r", encoding="utf-8") as file:
             return json.load(file)
     except (OSError, ValueError):
         return {}
 
 
-def _save_channel_id_cache(cache):
+def _save_json_cache(path, cache):
     """
-    Persist the channel id cache next to this module.
+    Persist a JSON cache file next to this module.
     """
-    with open(CHANNEL_ID_CACHE, "w", encoding="utf-8") as file:
+    with open(path, "w", encoding="utf-8") as file:
         json.dump(cache, file, indent=2)
         file.write("\n")
 
@@ -163,10 +171,19 @@ def _fetch_feed(channel_id):
     feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
     page = requests.get(feed_url, timeout=10, headers=HEADERS)
     if page.status_code != 200:
+        print(
+            f"YouTube feed for {channel_id}: HTTP {page.status_code}",
+            file=sys.stderr,
+        )
         return None
     try:
         return ET.fromstring(page.content)
-    except ET.ParseError:
+    except ET.ParseError as error:
+        print(
+            f"YouTube feed for {channel_id}: invalid XML ({error}), "
+            f"starts with {page.content[:80]!r}",
+            file=sys.stderr,
+        )
         return None
 
 
@@ -174,9 +191,10 @@ def get_youtube_data(youtube_username, retries=3):
     """
     Get the latest videos from a YouTube channel using the official RSS feed.
     The resolved channel id is cached on disk; the channel page is only
-    scraped when there is no cached id or its feed stops working.
+    scraped when there is no cached id or its feed stops working. If YouTube
+    can't be reached at all, the last successful video list is returned.
     """
-    cache = _load_channel_id_cache()
+    cache = _load_json_cache(CHANNEL_ID_CACHE)
 
     root = None
     channel_id = cache.get(youtube_username)
@@ -189,17 +207,26 @@ def get_youtube_data(youtube_username, retries=3):
                 time.sleep(2)
             try:
                 channel_id = _resolve_channel_id(youtube_username)
-            except ValueError:
+            except ValueError as error:
+                print(error, file=sys.stderr)
                 continue
             root = _fetch_feed(channel_id)
             if root is not None:
                 break
-        if root is None:
-            raise ValueError(f"Could not fetch YouTube feed for '{youtube_username}'")
 
-        if cache.get(youtube_username) != channel_id:
-            cache[youtube_username] = channel_id
-            _save_channel_id_cache(cache)
+    if root is None:
+        video_cache = _load_json_cache(VIDEO_CACHE)
+        if youtube_username in video_cache:
+            print(
+                f"YouTube unreachable, using cached videos for '{youtube_username}'",
+                file=sys.stderr,
+            )
+            return video_cache[youtube_username]
+        raise ValueError(f"Could not fetch YouTube feed for '{youtube_username}'")
+
+    if cache.get(youtube_username) != channel_id:
+        cache[youtube_username] = channel_id
+        _save_json_cache(CHANNEL_ID_CACHE, cache)
 
     video_list = []
     for entry in root.findall("atom:entry", YT_FEED_NS):
@@ -228,5 +255,10 @@ def get_youtube_data(youtube_username, retries=3):
                 "viewCountText": views,
             }
         )
+
+    if video_list:
+        video_cache = _load_json_cache(VIDEO_CACHE)
+        video_cache[youtube_username] = video_list
+        _save_json_cache(VIDEO_CACHE, video_cache)
 
     return video_list
