@@ -18,6 +18,21 @@
 
 
 ## Backend Projects 💻
+- [Pequeroku  💻](https://github.com/HectorPulido/pequeroku) 
+- [Unity mmo framework  🎮 💻](https://github.com/HectorPulido/Unity-MMO-Framework) 
+- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
+- [Cv generator with rust  💻](https://github.com/HectorPulido/cv-generator-with-rust) 
+- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
+- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
+- [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
+- [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
+- [Unity arpg online  🎮 💻](https://github.com/HectorPulido/Unity-Arpg-Online) 
+- [Cooklang  💻](https://github.com/HectorPulido/Cooklang) 
+- [Rust pong  🎮 💻](https://github.com/HectorPulido/rust-pong) 
+- [Minios  🤖 💻](https://github.com/HectorPulido/minios) 
+- [Unity twitch chat link  🎮 💻](https://github.com/HectorPulido/Unity-twitch-chat-link) 
+- [Expenses tracker  💻](https://github.com/HectorPulido/Expenses-tracker) 
+- [Peque3d  🎮 💻](https://github.com/HectorPulido/Peque3D) 
 
 
 

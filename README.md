@@ -33,7 +33,23 @@ We are a couple of indie developers who love to create video games. We love game
 
 
 ## Awesome Projects 📚
+- [Unity battle royale game made with unity  🎮](https://github.com/HectorPulido/Unity-Battle-Royale-game-Made-With-Unity) 
+- [Unity mmo framework  🎮 💻](https://github.com/HectorPulido/Unity-MMO-Framework) 
+- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
+- [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
+- [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
+- [Unityplantsvszombiesclone  🎮](https://github.com/HectorPulido/UnityPlantsVsZombiesClone) 
+- [Chatbot seq2seq c   🤖](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 
+- [Cv generator with rust  💻](https://github.com/HectorPulido/cv-generator-with-rust) 
+- [Unityturnbasedcombatsystem  🎮](https://github.com/HectorPulido/UnityTurnBasedCombatSystem) 
 
+
+
+## Latest videos 📺
+<p align="center"><a href="https://www.youtube.com/watch?v=_TDyJ5I8UZ4" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/_TDyJ5I8UZ4/0.jpg"/></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=EyAjYXz0Iys" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/EyAjYXz0Iys/0.jpg"/></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=n0Yg9gggB7s" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/n0Yg9gggB7s/0.jpg"/></a>&nbsp;&nbsp;
+</p>
 
 
 <br>
