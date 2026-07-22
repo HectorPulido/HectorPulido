@@ -18,7 +18,6 @@
 
 
 ## Blockchain Projects 🔑
-- [Decentralized twitter with blockchain as base  🔑 💻](https://github.com/HectorPulido/Decentralized-Twitter-with-blockchain-as-base) 
 
 
 

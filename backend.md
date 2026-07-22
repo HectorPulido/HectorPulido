@@ -24,7 +24,6 @@
 - [Cv generator with rust  💻](https://github.com/HectorPulido/cv-generator-with-rust) 
 - [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
 - [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
-- [Asteroids like game  🤖 🎮 💻](https://github.com/HectorPulido/Asteroids-like-game) 
 - [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
 - [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
 - [Unity arpg online  🎮 💻](https://github.com/HectorPulido/Unity-Arpg-Online) 
@@ -33,20 +32,7 @@
 - [Minios  🤖 💻](https://github.com/HectorPulido/minios) 
 - [Unity twitch chat link  🎮 💻](https://github.com/HectorPulido/Unity-twitch-chat-link) 
 - [Expenses tracker  💻](https://github.com/HectorPulido/Expenses-tracker) 
-- [Console render system  🎮 💻](https://github.com/HectorPulido/console-render-system) 
 - [Peque3d  🎮 💻](https://github.com/HectorPulido/Peque3D) 
-- [Nlu brain api  🤖 💻](https://github.com/HectorPulido/nlu-brain-api) 
-- [Consolegameengine  🎮 💻](https://github.com/HectorPulido/ConsoleGameEngine) 
-- [Decentralized twitter with blockchain as base  🔑 💻](https://github.com/HectorPulido/Decentralized-Twitter-with-blockchain-as-base) 
-- [Pong in python  🎮 💻](https://github.com/HectorPulido/pong-in-python) 
-- [Rust markov chain chatbot  🤖 💻](https://github.com/HectorPulido/Rust-markov-chain-chatbot) 
-- [Rust blog with login  💻](https://github.com/HectorPulido/rust-blog-with-login) 
-- [Rust todo app  💻](https://github.com/HectorPulido/rust-todo-app) 
-- [Wasm conways game of life  💻](https://github.com/HectorPulido/wasm-conways-game-of-life) 
-- [Simple twitchbot  💻](https://github.com/HectorPulido/Simple-TwitchBot) 
-- [Hectorpulido.github.io  💻](https://github.com/HectorPulido/hectorpulido.github.io) 
-- [Generic portfolio  💻](https://github.com/HectorPulido/generic-portfolio) 
-- [Mavis youtube video optimizer  🤖 💻](https://github.com/HectorPulido/MAVIS-Youtube-Video-Optimizer) 
 
 
 
