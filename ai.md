@@ -18,6 +18,20 @@
 
 
 ## AI Projects 🤖
+- [Evolutionary neural networks on unity for bots  🤖 🎮](https://github.com/HectorPulido/Evolutionary-Neural-Networks-on-unity-for-bots) 
+- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
+- [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
+- [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
+- [Chatbot seq2seq c   🤖](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 
+- [Deeplearning based twitch bot  🤖 💻](https://github.com/HectorPulido/Deeplearning-based-Twitch-bot) 
+- [Hectorpulido  🤖 💻](https://github.com/HectorPulido/HectorPulido) 
+- [Vtuber framework unity and python  🤖](https://github.com/HectorPulido/Vtuber-Framework-Unity-and-Python) 
+- [Awesome twitter bot  🤖 💻](https://github.com/HectorPulido/Awesome-twitter-bot) 
+- [Awesome discord bot with rust  🤖 💻](https://github.com/HectorPulido/awesome-discord-bot-with-rust) 
+- [Procedural dungeon generation algorithm unity  🤖 🎮](https://github.com/HectorPulido/Procedural-Dungeon-Generation-Algorithm-Unity) 
+- [Minios  🤖 💻](https://github.com/HectorPulido/minios) 
+- [Discord bot llama  🤖](https://github.com/HectorPulido/discord-bot-LLama) 
+- [Peque nlu  🤖](https://github.com/HectorPulido/peque-nlu) 
 
 
 
