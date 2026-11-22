@@ -34,21 +34,21 @@ We are a couple of indie developers who love to create video games. We love game
 
 ## Awesome Projects 📚
 - [Unity battle royale game made with unity  🎮](https://github.com/HectorPulido/Unity-Battle-Royale-game-Made-With-Unity) 
-- [Unity mmo framework  🎮 💻](https://github.com/HectorPulido/Unity-MMO-Framework) 
-- [Youtubers toolkit  🤖 💻](https://github.com/HectorPulido/Youtubers-toolkit) 
+- [Unity mmo framework  🎮](https://github.com/HectorPulido/Unity-MMO-Framework) 
+- [Youtubers toolkit  🤖](https://github.com/HectorPulido/Youtubers-toolkit) 
 - [Chatbot with voice  🤖](https://github.com/HectorPulido/chatbot-with-voice) 
 - [Multi layer perceptron  🤖](https://github.com/HectorPulido/Multi-layer-perceptron) 
 - [Unityplantsvszombiesclone  🎮](https://github.com/HectorPulido/UnityPlantsVsZombiesClone) 
 - [Chatbot seq2seq c   🤖](https://github.com/HectorPulido/Chatbot-seq2seq-C-) 
-- [Cv generator with rust  💻](https://github.com/HectorPulido/cv-generator-with-rust) 
 - [Unityturnbasedcombatsystem  🎮](https://github.com/HectorPulido/UnityTurnBasedCombatSystem) 
+- [Simple rts made with unity  🎮](https://github.com/HectorPulido/Simple-RTS-Made-With-Unity) 
 
 
 
 ## Latest videos 📺
-<p align="center"><a href="https://www.youtube.com/watch?v=Zk5J47qN-JQ" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/Zk5J47qN-JQ/0.jpg"/></a>&nbsp;&nbsp;
+<p align="center"><a href="https://www.youtube.com/watch?v=t1nisJETVyg" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/t1nisJETVyg/0.jpg"/></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=Zk5J47qN-JQ" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/Zk5J47qN-JQ/0.jpg"/></a>&nbsp;&nbsp;
 <a href="https://www.youtube.com/watch?v=J1hE5VFGMlI" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/J1hE5VFGMlI/0.jpg"/></a>&nbsp;&nbsp;
-<a href="https://www.youtube.com/watch?v=48-RNs_fUm8" target="blank"><img                 align="center" width="200px" src="https://img.youtube.com/vi/48-RNs_fUm8/0.jpg"/></a>&nbsp;&nbsp;
 </p>
 
 
